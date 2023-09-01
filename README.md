@@ -1,4 +1,4 @@
-Hi! 👋 I'm Kate Crawford a Data Science consultant based in Saint Louis, MO. 
+Hi! 👋 I'm Kate Crawford an aspiring data scientist based in Saint Louis, MO. 
 
 ## About Me
 
