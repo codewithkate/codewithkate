@@ -7,10 +7,15 @@ I am an early-career data scientist with a master's degree in public administrat
 ## Current Toolkit
 
 🐍 Python
+
 🐘 PostgreSQL
+
 🐸 Django
+
 🌶️ Flask
+
 👑 Streamlit
+
 ➕ Tableau
 
 ## Recent Team Projects
