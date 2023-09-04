@@ -2,7 +2,7 @@ Hi! 👋 I'm Kate Crawford.
 
 ## About Me
 
-I am an early-career data scientist with a master's degree in public administration. I strive to blend technical expertise with my heart for teaching and advocacy to clearly convey insights for a diverse set of audiences.
+I am an early-career data scientist with a master's degree in public administration. I strive to blend technical expertise with my heart for teaching and advocacy to clearly convey insights and develop sustainable solutions.
 
 ## Current Toolkit
 
