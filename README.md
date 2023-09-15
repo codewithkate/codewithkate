@@ -2,7 +2,7 @@ Hi! 👋 I'm Kate Crawford.
 
 ## About Me
 
-I am an early-career data scientist who strive to blend technical expertise with my heart for teaching and advocacy.
+I am an early-career data scientist who strives to blend technical expertise with my heart for teaching and advocacy.
 
 ## Current Toolkit
 
