@@ -2,7 +2,7 @@ Hi! 👋 I'm Kate Crawford.
 
 ## About Me
 
-I am an avid learner and software engineer whose curious about machine learning solutions. I currently manage data systems for legal and finance teams. Here, I collaborate with friends, hackathon teammates, and track my progress through self-taught CS courses. 
+I am an avid learner and software engineer whose curious about machine learning solutions. I currently manage data systems for legal and finance teams. Here, I collaborate with friends, hackathon teammates, and track [my progress](https://github.com/codewithkate/ossu-cs-progress/blob/main/README.md) through self-taught CS courses. 
 
 ## Current Toolkit
 
