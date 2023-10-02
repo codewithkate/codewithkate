@@ -20,4 +20,4 @@ I am an avid learner and software engineer whose curious about machine learning 
 
 ➕ Tableau
 
-![Kate's GitHub stats](https://github-readme-stats.vercel.app/api?username=anuraghazra&show_icons=true&bg_color=00000000)
+![Kate's GitHub stats](https://github-readme-stats.vercel.app/api?username=anuraghazra&show_icons=true&bg_color=00000000&rank_icon=github&include_all_commit=true)
