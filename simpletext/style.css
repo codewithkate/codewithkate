@@ -1,0 +1,87 @@
+html, 
+:root {
+    --light: #FFF;
+    --skygrey: #7C7C7C;
+    --ink: #0C0C0C;
+
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 87.5%;
+    line-height: 1.6;
+    font-family: 
+        /* hierarchy of fonts */
+        -apple-system, BlinkMacSystemFont, /* MacOS and iOS */
+        "Segoe UI", /* Microsoft Windows */
+        Roboto, /* Google Android */
+        Oxygen, Ubuntu, Cantarell, /* Linux */
+        "Open Sans", "Helvetica Neue", sans-serif;
+    /* text is not automatically resized based on the user's preferences, 
+    rendered with optimized legibility, 
+    and uses the default kerning defined by the font */
+    text-size-adjust: none;
+    text-rendering: optimizeLegibility;
+    font-kerning: normal;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: var(--light);
+    color: var(--skygrey);
+    padding: 3rem;
+}
+
+h1 {
+    color: var(--ink);
+    font-weight: inherit;
+    font-size: inherit;
+}
+
+a {
+    color: var(--skygrey);
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--ink);
+}
+
+@media (prefers-color-scheme: dark) {
+    body {
+        background: var(--ink);
+    }
+
+    h1 {
+        color: var(--light);
+    }
+
+    a:hover {
+        color: var(--light);
+    }
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    display: inline;
+}
+
+li:not(:last-child)::after {
+    content: "・"
+}
+address {
+    font-style: normal;
+}
+
+::selection {
+    background: var(--skygrey);
+    color: var(--light);
+}
+
