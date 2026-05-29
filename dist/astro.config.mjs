@@ -27,14 +27,18 @@ import swup from '@swup/astro';
 import refreshContentOnChange from './src/integrations/refresh-content-on-change.ts';
 import { fileURLToPath } from 'node:url';
 
+import netlify from '@astrojs/netlify';
+
 // Deployment platform configuration
 const DEPLOYMENT_PLATFORM = process.env.DEPLOYMENT_PLATFORM || 'netlify';
 
 export default defineConfig({
   site: siteConfig.site,
+
   deployment: {
     platform: DEPLOYMENT_PLATFORM
   },
+
   csp: {
     scriptDirective: {
       resources: [
@@ -78,9 +82,11 @@ export default defineConfig({
       ]
     }
   },
+
   devToolbar: {
     enabled: true
   },
+
   redirects: (process.env.NODE_ENV !== 'production' && process.env.NODE_ENV !== 'build') ? {
   '/about-me': '/about',
   '/about-us': '/about',
@@ -99,17 +105,19 @@ export default defineConfig({
   '/docs/astro-modular-configuration': '/docs/configuration',
   '/docs/sourcetree-and-git': '/docs/sourcetree-and-git-setup'
 } : {},
-image: {
-    service: {
-      entrypoint: 'astro/assets/services/sharp',
-      config: {
-        limitInputPixels: false,
-      }
+
+  image: {
+      service: {
+        entrypoint: 'astro/assets/services/sharp',
+        config: {
+          limitInputPixels: false,
+        }
+      },
+      remotePatterns: [{
+        protocol: 'https'
+      }]
     },
-    remotePatterns: [{
-      protocol: 'https'
-    }]
-  },
+
   integrations: [
     refreshContentOnChange(),
     tailwind(),
@@ -136,6 +144,7 @@ image: {
       linkSelector: 'a[href]:not([data-no-swup]):not([href^="mailto:"]):not([href^="tel:"])'
     })
   ],
+
   markdown: {
       remarkPlugins: [
       remarkObsidianImageSize, // Parse Obsidian image size syntax first
@@ -183,6 +192,7 @@ image: {
       wrap: true
     }
   },
+
   vite: {
     assetsInclude: ['**/*.base', '**/*.home', '**/*.base'],
     resolve: {
@@ -221,7 +231,10 @@ image: {
     },
     exclude: ['**/_redirects']
   },
+
   build: {
     assets: '_assets'
-  }
+  },
+
+  adapter: netlify()
 });

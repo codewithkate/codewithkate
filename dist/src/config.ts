@@ -183,25 +183,25 @@ export interface SiteConfig {
 export const siteConfig: SiteConfig = {
   // Site Information
   // [CONFIG:SITE_URL]
-  site: "https://astro-modular.netlify.app",
+  site: "https://codewithkate.netlify.app",
   // [CONFIG:SITE_TITLE]
-  title: "KC",
+  title: "codewithkate",
   // [CONFIG:HOMEPAGE_TITLE]
-  homepageTitle: "codewithkate",
+  homepageTitle: "",
   // [CONFIG:SITE_DESCRIPTION]
   description: "A collection of posts and projects.",
   // [CONFIG:SITE_AUTHOR]
-  author: "Kate Crawford",
+  author: "Kaitlen A. Crawford",
   // [CONFIG:SITE_LANGUAGE]
   language: "en",
   // [CONFIG:FAVICON_THEME_ADAPTIVE]
   faviconThemeAdaptive: true, // If true, favicon switches between favicon-dark.png and favicon-light.png based on browser's system theme preference. If false, always uses favicon.png
   // [CONFIG:DEFAULT_OG_IMAGE_ALT]
-  defaultOgImageAlt: "Astrisk logo.", // Alt text for the default Open Graph image, public/open-graph.png
+  defaultOgImageAlt: "Astro Modular logo.", // Alt text for the default Open Graph image, public/open-graph.png
 
   // Global Settings
   // [CONFIG:THEME]
-  theme: "custom", // Available themes: "minimal" | "oxygen" | "atom" | "ayu" | "catppuccin" | "charcoal" | "dracula" | "everforest" | "flexoki" | "gruvbox" | "macos" | "nord" | "obsidian" | "rose-pine" | "sky" | "solarized" | "things" | "custom"
+  theme: "oxygen", // Available themes: "minimal" | "oxygen" | "atom" | "ayu" | "catppuccin" | "charcoal" | "dracula" | "everforest" | "flexoki" | "gruvbox" | "macos" | "nord" | "obsidian" | "rose-pine" | "sky" | "solarized" | "things" | "custom"
   // [CONFIG:CUSTOM_THEME_FILE]
   customThemeFile: "custom", // Only used if theme is set to "custom" above. Filename in src/themes/custom/ (without .ts extension)
   // [CONFIG:AVAILABLE_THEMES]
@@ -228,7 +228,7 @@ export const siteConfig: SiteConfig = {
     // [CONFIG:TABLE_OF_CONTENTS_ENABLED]
     enabled: true,
     // [CONFIG:TABLE_OF_CONTENTS_DEPTH]
-    depth: 3, // Maximum heading depth to include in ToC (2-6, where 2=H2, 3=H3, etc.)
+    depth: 4, // Maximum heading depth to include in ToC (2-6, where 2=H2, 3=H3, etc.)
   },
   footer: {
     // [CONFIG:FOOTER_ENABLED]
@@ -310,14 +310,19 @@ export const siteConfig: SiteConfig = {
     // [CONFIG:NAVIGATION_SHOW_NAVIGATION]
     showNavigation: true,
     // [CONFIG:NAVIGATION_STYLE]
-    style: "minimal", // 'minimal' or 'traditional'
+    style: "traditional", // 'minimal' or 'traditional'
     // [CONFIG:NAVIGATION_SHOW_MOBILE_MENU]
     showMobileMenu: true,
     // [CONFIG:NAVIGATION_PAGES]
     pages: [
       { title: "Posts", url: "/posts/" },
       { title: "Projects", url: "/projects/" },
-      { title: "About", url: "/about/"}
+      { title: "Docs", url: "/docs/" },
+      { title: "About", url: "/about/",
+        children: [
+          { title: "Privacy Policy", url: "/privacy-policy/" }
+        ] },
+      { title: "GitHub", url: "https://github.com/davidvkimball/astro-modular" }
     ],
     // [CONFIG:NAVIGATION_SOCIAL]
     social: [
@@ -346,7 +351,7 @@ export const siteConfig: SiteConfig = {
   homeOptions: {
     featuredPost: {
       // [CONFIG:HOME_OPTIONS_FEATURED_POST_ENABLED]
-      enabled: false, // Show featured post on homepage
+      enabled: true, // Show featured post on homepage
       // [CONFIG:HOME_OPTIONS_FEATURED_POST_TYPE]
       type: "latest", // "latest" or "featured"
       // [CONFIG:HOME_OPTIONS_FEATURED_POST_SLUG]
@@ -356,7 +361,7 @@ export const siteConfig: SiteConfig = {
       // [CONFIG:HOME_OPTIONS_RECENT_POSTS_ENABLED]
       enabled: true, // Show recent posts on homepage
       // [CONFIG:HOME_OPTIONS_RECENT_POSTS_COUNT]
-      count: 2, // Number of recent posts to show
+      count: 7, // Number of recent posts to show
     },
     projects: {
       // [CONFIG:HOME_OPTIONS_PROJECTS_ENABLED]
@@ -366,13 +371,13 @@ export const siteConfig: SiteConfig = {
     },
     docs: {
       // [CONFIG:HOME_OPTIONS_DOCS_ENABLED]
-      enabled: false, // Show featured docs on homepage
+      enabled: true, // Show featured docs on homepage
       // [CONFIG:HOME_OPTIONS_DOCS_COUNT]
       count: 3, // Number of docs to show
     },
     blurb: {
       // [CONFIG:HOME_OPTIONS_BLURB_PLACEMENT]
-      placement: "above", // 'above' (at the top), 'below' (after content), or 'none' (disabled)
+      placement: "below", // 'above' (at the top), 'below' (after content), or 'none' (disabled)
     },
   },
 

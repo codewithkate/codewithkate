@@ -3,7 +3,7 @@
   "currentTemplate": "standard",
   "currentTheme": "oxygen",
   "customThemeFile": "custom",
-  "contentOrganization": "file-based",
+  "contentOrganization": "folder-based",
   "themeColors": {
     "mode": "simple",
     "simpleColors": {
@@ -12,10 +12,10 @@
     }
   },
   "siteInfo": {
-    "site": "https://astro-modular.netlify.app",
-    "title": "Astro Modular",
-    "description": "A flexible blog theme designed for Obsidian users.",
-    "author": "David V. Kimball",
+    "site": "https://codewithkate.netlify.app",
+    "title": "codewithkate",
+    "description": "A collection of posts and projects.",
+    "author": "Kaitlen A. Crawford",
     "language": "en",
     "faviconThemeAdaptive": true,
     "defaultOgImageAlt": "Astro Modular logo."
