@@ -23,7 +23,3 @@
 ### Connect with me
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-blue?logo=linkedin)]((https://www.linkedin.com/in/kaitlencrawford/)) [![Email](https://img.shields.io/badge/Email-kaitlencrawford@gmail.com-red?logo=gmail)](mailto:kaitlencrawford@gmail.com)
-
-## About Me
-
-I am an avid learner whose curious about programming and machine learning applications. Here, I collaborate with friends, hackathon teammates, and store code from books and personal projects.
