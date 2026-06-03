@@ -1,8 +1,0 @@
-allowBuilds:
-  '@parcel/watcher': true
-  esbuild: true
-  sharp: true
-  workerd: true
-minimumReleaseAgeExclude:
-  - '@astrojs/internal-helpers@0.10.0'
-  - '@astrojs/netlify@7.0.11'
