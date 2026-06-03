@@ -1,11 +1,11 @@
 [build]
-  base = "astro-site"
-  publish = "astro-site/dist"
+  base = ""
+  publish = "dist"
   command = "pnpm run build"
 
 [build.environment]
   NODE_VERSION = "22"
-  PNPM_VERSION = "8"
+  PNPM_VERSION = "9"
 
 # Enable compression for all text-based files
 # Note: Netlify automatically handles gzip/brotli compression based on client support
@@ -177,38 +177,20 @@
   force = true
 
 [[redirects]]
-  from = "/posts/mermaid-test"
-  to = "/posts/obsidian-embeds-demo"
+  from = "/posts/manage-multiple-python-versions-with-pyenv-commands"
+  to = "/posts/getting-started-with-pyenv"
   status = 301
   force = true
 
 [[redirects]]
-  from = "/posts/mermaid-diagram-test"
-  to = "/posts/obsidian-embeds-demo"
+  from = "/posts/a-database-story"
+  to = "/posts/intro-to-sql-databases"
   status = 301
   force = true
 
 [[redirects]]
-  from = "/posts/mermaid-diagrams"
-  to = "/posts/obsidian-embeds-demo"
-  status = 301
-  force = true
-
-[[redirects]]
-  from = "/posts/astro-suite-vault-modular-guide"
-  to = "/posts/vault-cms-guide"
-  status = 301
-  force = true
-
-[[redirects]]
-  from = "/posts/astro-suite-obsidian-vault-guide-astro-modular"
-  to = "/posts/vault-cms-guide"
-  status = 301
-  force = true
-
-[[redirects]]
-  from = "/posts/obsidian-vault-guide"
-  to = "/posts/vault-cms-guide"
+  from = "/posts/on-sql-databases"
+  to = "/posts/intro-to-sql-databases"
   status = 301
   force = true
 
@@ -237,8 +219,44 @@
   force = true
 
 [[redirects]]
+  from = "/docs/mermaid-test"
+  to = "/docs/obsidian-embeds-demo"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/docs/mermaid-diagram-test"
+  to = "/docs/obsidian-embeds-demo"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/docs/mermaid-diagrams"
+  to = "/docs/obsidian-embeds-demo"
+  status = 301
+  force = true
+
+[[redirects]]
   from = "/docs/sourcetree-and-git"
   to = "/docs/sourcetree-and-git-setup"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/docs/astro-suite-vault-modular-guide"
+  to = "/docs/vault-cms-guide"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/docs/astro-suite-obsidian-vault-guide-astro-modular"
+  to = "/docs/vault-cms-guide"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/docs/obsidian-vault-guide"
+  to = "/docs/vault-cms-guide"
   status = 301
   force = true
 

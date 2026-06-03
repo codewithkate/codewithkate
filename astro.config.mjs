@@ -86,27 +86,28 @@ export default defineConfig({
   devToolbar: {
     enabled: true
   },
-
   redirects: (process.env.NODE_ENV !== 'production' && process.env.NODE_ENV !== 'build') ? {
   '/about-me': '/about',
   '/about-us': '/about',
   '/contact-me': '/contact',
   '/contact-us': '/contact',
   '/privacy': '/privacy-policy',
-  '/posts/mermaid-test': '/posts/obsidian-embeds-demo',
-  '/posts/mermaid-diagram-test': '/posts/obsidian-embeds-demo',
-  '/posts/mermaid-diagrams': '/posts/obsidian-embeds-demo',
-  '/posts/astro-suite-vault-modular-guide': '/posts/vault-cms-guide',
-  '/posts/astro-suite-obsidian-vault-guide-astro-modular': '/posts/vault-cms-guide',
-  '/posts/obsidian-vault-guide': '/posts/vault-cms-guide',
+  '/posts/manage-multiple-python-versions-with-pyenv-commands': '/posts/getting-started-with-pyenv',
+  '/posts/a-database-story': '/posts/intro-to-sql-databases',
+  '/posts/on-sql-databases': '/posts/intro-to-sql-databases',
   '/projects/obsidian-astro-composer': '/projects/astro-composer',
   '/projects/obsidian-astro-suite': '/projects/vault-cms',
   '/docs/api-reference': '/docs/api',
   '/docs/astro-modular-configuration': '/docs/configuration',
-  '/docs/sourcetree-and-git': '/docs/sourcetree-and-git-setup'
+  '/docs/mermaid-test': '/docs/obsidian-embeds-demo',
+  '/docs/mermaid-diagram-test': '/docs/obsidian-embeds-demo',
+  '/docs/mermaid-diagrams': '/docs/obsidian-embeds-demo',
+  '/docs/sourcetree-and-git': '/docs/sourcetree-and-git-setup',
+  '/docs/astro-suite-vault-modular-guide': '/docs/vault-cms-guide',
+  '/docs/astro-suite-obsidian-vault-guide-astro-modular': '/docs/vault-cms-guide',
+  '/docs/obsidian-vault-guide': '/docs/vault-cms-guide'
 } : {},
-
-  image: {
+image: {
       service: {
         entrypoint: 'astro/assets/services/sharp',
         config: {
