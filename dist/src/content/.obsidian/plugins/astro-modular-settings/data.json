@@ -1,7 +1,7 @@
 {
-  "runWizardOnStartup": true,
+  "runWizardOnStartup": false,
   "currentTemplate": "standard",
-  "currentTheme": "oxygen",
+  "currentTheme": "rose-pine",
   "customThemeFile": "custom",
   "contentOrganization": "folder-based",
   "themeColors": {
@@ -25,7 +25,7 @@
   },
   "tableOfContents": {
     "enabled": true,
-    "depth": 4
+    "depth": 3
   },
   "footer": {
     "enabled": true,
@@ -54,29 +54,24 @@
       },
       {
         "title": "About",
-        "url": "/about/",
-        "children": [
-          {
-            "title": "Privacy Policy",
-            "url": "/privacy-policy/"
-          }
-        ]
-      },
-      {
-        "title": "GitHub",
-        "url": "https://github.com/davidvkimball/astro-modular"
+        "url": "/about/"
       }
     ],
     "social": [
       {
-        "title": "X",
-        "url": "https://x.com/davidvkimball",
-        "icon": "x-twitter"
+        "title": "Linkedin",
+        "url": "https://www.linkedin.com/in/kaitlencrawford",
+        "icon": "linkedin"
       },
       {
         "title": "GitHub",
-        "url": "https://github.com/davidvkimball",
+        "url": "https://github.com/codewithkate",
         "icon": "github"
+      },
+      {
+        "title": "Medium",
+        "url": "https://medium.com/@kate-crawford",
+        "icon": "medium"
       }
     ]
   },
@@ -87,7 +82,7 @@
     "search": {
       "posts": true,
       "pages": false,
-      "projects": false,
+      "projects": true,
       "docs": false
     },
     "sections": {
@@ -110,7 +105,7 @@
     },
     "recentPosts": {
       "enabled": true,
-      "count": 7
+      "count": 5
     },
     "projects": {
       "enabled": true,
@@ -168,7 +163,7 @@
     "linkedMentionsCompact": false,
     "graphView": true,
     "postNavigation": true,
-    "hideScrollBar": false,
+    "hideScrollBar": true,
     "scrollToTop": true,
     "showSocialIconsInFooter": true,
     "profilePicture": false,

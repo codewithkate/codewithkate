@@ -3,7 +3,7 @@ title: About
 description: Learn more about Astro Modular and the philosophy behind its design approach.
 noIndex: false
 hideTOC: false
-draft: false
+draft: true
 aliases:
   - about-me
   - about-us
@@ -37,7 +37,7 @@ Every feature can be toggled on or off through a single configuration file. Enab
 ---
 
 ## Posts to Check Out
-- [[getting-started|Getting Started]]
+- [[../docs/getting-started|Getting Started]]
 - [Astro Suite Vault (Modular) Guide](posts/astro-suite-vault-modular-guide.md) 
 
 ---
