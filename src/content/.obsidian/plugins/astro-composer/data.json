@@ -60,7 +60,7 @@
       "linkBasePath": "/docs/",
       "template": "---\ntitle: \"{{title}}\"\ndescription: \"\"\ncategory: \"\"\norder: \nversion: \"\"\nlastModified: {{date}}\nimage: \"\"\nimageAlt: \"\"\nhideCoverImage: false\nhideTOC: false\ndraft: false\nfeatured: false\n---\n",
       "enabled": true,
-      "creationMode": "folder",
+      "creationMode": "file",
       "indexFileName": "index",
       "ignoreSubfolders": false,
       "enableUnderscorePrefix": false,
