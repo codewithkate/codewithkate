@@ -532,7 +532,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "posts/reflective-log-data-engineering-training/Untitled.md",
+                "file": "posts/reflective-log-data-engineering-training/index.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -547,7 +547,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Untitled"
+              "title": "index"
             }
           },
           {
@@ -721,11 +721,12 @@
   },
   "active": "0e64b6d3fd65639d",
   "lastOpenFiles": [
-    "posts/a-short-history-of-sql/index.md",
+    "posts/reflective-log-data-engineering-training/index.md",
+    "posts/reflective-log-data-engineering-training/cover-image.jpeg",
     "bases/Home.base",
+    "posts/a-short-history-of-sql/index.md",
     "posts/part-i-a-short-history-of-git/index.md",
     "posts/python-tutorial-manage-multiple-versions-of-python-with-pyenv/index.md",
-    "posts/reflective-log-data-engineering-training/Untitled.md",
     "posts/python-tutorial-manage-multiple-versions-of-python-with-pyenv/cover-image.jpeg",
     "posts/python-tutorial-manage-multiple-versions-of-python-with-pyenv/Python Tutorial Manage Multiple Versions of Python 365aba325c41805f80c1d129a3f9642f.md",
     "posts/part-i-a-short-history-of-git/cover-image.png",
@@ -742,7 +743,6 @@
     "posts/check-it-out-the-many-meanings-of-git-checkout/git-checkout-to-delete-a-file.png",
     "posts/check-it-out-the-many-meanings-of-git-checkout/git-checkout-to-add-a-new-file.png",
     "posts/check-it-out-the-many-meanings-of-git-checkout/git-checkout-and-git-switch.png",
-    "posts/check-it-out-the-many-meanings-of-git-checkout/git-checkout-and-git-status.png",
     "excalidraw/Drawing 2026-06-08 21.44.38.excalidraw.md",
     "excalidraw/Drawing 2026-06-08 10.08.21.excalidraw.md",
     "excalidraw/Drawing 2026-06-06 11.50.42.excalidraw.md",
