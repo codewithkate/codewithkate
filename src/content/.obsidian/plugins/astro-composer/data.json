@@ -19,7 +19,7 @@
       "name": "Posts",
       "folder": "posts",
       "linkBasePath": "/posts/",
-      "template": "---\ntitle: \"{{title}}\"\ndate: {{date}}\ndescription: \"\"\ntags: []\nimage: \"\"\nimageAlt: \"\"\nimageOG: false\nhideCoverImage: false\nhideTOC: false\ntargetKeyword: \"\"\ndraft: false\n---\n",
+      "template": "---\ntitle: \"{{title}}\"\nposted_on: {{date}}\ndescription: \"\"\ntags: []\nimage: \"\"\nimageAlt: \"\"\nimageOG: false\nhideCoverImage: false\nhideTOC: false\ntargetKeyword: \"\"\ndraft: false\n---\n",
       "enabled": true,
       "creationMode": "folder",
       "indexFileName": "index",
@@ -38,20 +38,20 @@
       "indexFileName": "index",
       "ignoreSubfolders": false,
       "enableUnderscorePrefix": false,
-      "collapsed": false
+      "collapsed": true
     },
     {
       "id": "content-1765432392567",
       "name": "Projects",
       "folder": "projects",
       "linkBasePath": "/projects/",
-      "template": "---\ntitle: \"{{title}}\"\ndescription: \"\"\ndate: {{date}}\ncategories: []\nrepositoryUrl:\nprojectUrl: \"\"\nstatus: \"\"\nimage: \"\"\nimageAlt: \"\"\nhideCoverImage: false\nhideTOC: false\ndraft: true\nfeatured: false\n---\n",
+      "template": "---\ntitle: \"{{title}}\"\ndescription: \"\"\nproject_duration: {{date}}\ncategories: []\nrepositoryUrl:\nprojectUrl: \"\"\nstatus: \"\"\nimage: \"\"\nimageAlt: \"\"\nhideCoverImage: false\nhideTOC: false\ndraft: true\nfeatured: false\n---\n",
       "enabled": true,
       "creationMode": "folder",
       "indexFileName": "index",
       "ignoreSubfolders": false,
       "enableUnderscorePrefix": false,
-      "collapsed": false
+      "collapsed": true
     },
     {
       "id": "content-1765432406133",

@@ -1,14 +1,14 @@
 {
   "main": {
-    "id": "edf79383f6114dfa",
+    "id": "5324373015726ba8",
     "type": "split",
     "children": [
       {
-        "id": "27259f957f5cd30d",
+        "id": "4509724f8bf84da7",
         "type": "tabs",
         "children": [
           {
-            "id": "389c2f879e859008",
+            "id": "e7a7b303c61786dc",
             "type": "leaf",
             "pinned": true,
             "state": {
@@ -21,8 +21,585 @@
               "icon": "lucide-home",
               "title": "Home"
             }
+          },
+          {
+            "id": "00fe50097410eba0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "posts/what-is-a-data-ecosystem/What is a Data Ecosystem?.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "What is a Data Ecosystem?"
+            }
+          },
+          {
+            "id": "1b8f00c0104a13db",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "posts/dashboard-templates-for-teams/Dashboard Templates for Teams.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Dashboard Templates for Teams"
+            }
+          },
+          {
+            "id": "26228f7d29fa6a20",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "posts/growing-a-digital-garden/Untitled.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Untitled"
+            }
+          },
+          {
+            "id": "76cad18f4e4537fb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "posts/put-good-in-get-good-out-how-to-use-tableau-prep-for-tableau-pulse/Untitled.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Untitled"
+            }
+          },
+          {
+            "id": "6162665e39e57014",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "posts/a-guide-to-measure-names-and-measure-values/Untitled.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Untitled"
+            }
+          },
+          {
+            "id": "980fd10d87ef92da",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "posts/use-cases-for-dynamic-zone-visibility-in-tableau/Untitled.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Untitled"
+            }
+          },
+          {
+            "id": "a140aaeff4d7e2e9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "posts/tableau-proportional-brushing/Untitled.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Untitled"
+            }
+          },
+          {
+            "id": "11b057fba7d8c965",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "posts/tableau-window-calculations/Untitled.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Untitled"
+            }
+          },
+          {
+            "id": "fa64828b415bef1a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "posts/tableau-table-calculations/Untitled.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Untitled"
+            }
+          },
+          {
+            "id": "008c8c10ed0a6358",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "posts/tableau-data-model/Untitled.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Untitled"
+            }
+          },
+          {
+            "id": "e25c54e5dbe5703f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "posts/tableau-interactive-radar-charts/Untitled.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Untitled"
+            }
+          },
+          {
+            "id": "af27fb870d891ca1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "posts/alteryx-11-steps-to-create-an-iterative-macro-for-pagination/Untitled.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Untitled"
+            }
+          },
+          {
+            "id": "64ea7b43ebc92223",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "posts/tableau-fix-broken-zn-function/Untitled.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Untitled"
+            }
+          },
+          {
+            "id": "5e02def8e6f08a4e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "posts/tableau-collaborative-workflows/Untitled.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Untitled"
+            }
+          },
+          {
+            "id": "0580fd935ec8faab",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "posts/check-it-out-the-many-meanings-of-git-checkout/git-checkout.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "git-checkout"
+            }
+          },
+          {
+            "id": "62165d8c22402f90",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "posts/python-tutorial-manage-multiple-versions-of-python-with-pyenv/Untitled.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Untitled"
+            }
+          },
+          {
+            "id": "9ba7cca8e5a32d67",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "posts/taking-command-of-your-dbt-project/Untitled.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Untitled"
+            }
+          },
+          {
+            "id": "b4e81de6c96a87a2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "posts/dbt-testing/Untitled.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Untitled"
+            }
+          },
+          {
+            "id": "66376a01fc25b7cc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "posts/dbt-mesh/Untitled.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Untitled"
+            }
+          },
+          {
+            "id": "cf8baf8a15945837",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "posts/dbt-packages/Untitled.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Untitled"
+            }
+          },
+          {
+            "id": "8353d4bfa20b330e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "posts/a-short-history-of-sql/a-short-history-of-sql.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "a-short-history-of-sql"
+            }
+          },
+          {
+            "id": "dd362c7dce46f907",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "posts/reflective-log-data-engineering-training/Untitled.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Untitled"
+            }
+          },
+          {
+            "id": "0e64b6d3fd65639d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "posts/part-1-a-short-history-of-git/Untitled.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Untitled"
+            }
+          },
+          {
+            "id": "330abc6dc015e32d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "posts/check-it-out-the-many-meanings-of-git-checkout/Check It Out The many meanings of git checkout 359aba325c4180c497dfccbabaebbfd1.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Check It Out The many meanings of git checkout 359aba325c4180c497dfccbabaebbfd1"
+            }
           }
-        ]
+        ],
+        "currentTab": 23
       }
     ],
     "direction": "vertical"
@@ -79,7 +656,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 384.5
   },
   "right": {
     "id": "b1a1b9333a960356",
@@ -95,7 +672,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "bases/Home.base",
+                "file": "posts/part-1-a-short-history-of-git/Untitled.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +682,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Home"
+              "title": "Backlinks for Untitled"
             }
           },
           {
@@ -114,12 +691,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "bases/Home.base",
+                "file": "posts/test-git-from-ai/index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Home"
+              "title": "Outgoing links from index"
             }
           },
           {
@@ -143,16 +720,17 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "bases/Home.base",
+                "file": "excalidraw/Screenshot 2026-06-08 at 10.20.23 AM.png",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Home"
+              "title": "Outline of Screenshot 2026-06-08 at 10.20.23 AM"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -172,9 +750,56 @@
       "home-base:Open home base": false,
       "zenmode:Toggle zen mode": false,
       "obsidian42-brat:BRAT": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-git:Open Git source control": false,
+      "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "389c2f879e859008",
-  "lastOpenFiles": []
+  "active": "0e64b6d3fd65639d",
+  "lastOpenFiles": [
+    "posts/check-it-out-the-many-meanings-of-git-checkout/Check It Out The many meanings of git checkout 359aba325c4180c497dfccbabaebbfd1.md",
+    "posts/part-1-a-short-history-of-git/Untitled.md",
+    "bases/Home.base",
+    "posts/check-it-out-the-many-meanings-of-git-checkout/git-checkout.md",
+    "posts/check-it-out-the-many-meanings-of-git-checkout/git-checkout-to-restore-a-file.png",
+    "posts/check-it-out-the-many-meanings-of-git-checkout/wikicommons.jpeg",
+    "posts/check-it-out-the-many-meanings-of-git-checkout/git-checkout-to-delete-a-file.png",
+    "posts/check-it-out-the-many-meanings-of-git-checkout/git-checkout-to-add-a-new-file.png",
+    "posts/check-it-out-the-many-meanings-of-git-checkout/git-checkout-and-git-switch.png",
+    "posts/check-it-out-the-many-meanings-of-git-checkout/git-checkout-and-git-status.png",
+    "posts/check-it-out-the-many-meanings-of-git-checkout/git-checkout-create-new-branch.png",
+    "posts/check-it-out-the-many-meanings-of-git-checkout/git-push-and-git-checkout.png",
+    "posts/check-it-out-the-many-meanings-of-git-checkout/git-commit-and-git-checkout.png",
+    "posts/check-it-out-the-many-meanings-of-git-checkout/git-add-and-checkout.png",
+    "posts/a-short-history-of-sql/a-short-history-of-sql.md",
+    "excalidraw/Drawing 2026-06-08 21.44.38.excalidraw.md",
+    "excalidraw/Drawing 2026-06-08 10.08.21.excalidraw.md",
+    "excalidraw/Drawing 2026-06-06 11.50.42.excalidraw.md",
+    "posts/a-short-history-of-sql-the-language-of-your-data-stack/A Short History of SQL The Language Of Your Data S 374aba325c41802581abf42e358f4b7d.md",
+    "posts/what-is-a-data-ecosystem/What is a Data Ecosystem?.md",
+    "posts/alteryx-11-steps-to-create-an-iterative-macro-for-pagination/Untitled.md",
+    "posts/tableau-table-calculations/Untitled.md",
+    "posts/part-1-a-short-history-of-git",
+    "posts/reflective-log-data-engineering-training/Untitled.md",
+    "posts/reflective-log-data-engineering-training",
+    "posts/a-short-history-of-sql",
+    "posts/dbt-packages/Untitled.md",
+    "posts/dbt-packages",
+    "posts/dbt-mesh/Untitled.md",
+    "posts/dbt-mesh",
+    "posts/dbt-testing/Untitled.md",
+    "posts/dbt-testing",
+    "posts/taking-command-of-your-dbt-project/Untitled.md",
+    "posts/taking-command-of-your-dbt-project",
+    "posts/python-tutorial-manage-multiple-versions-of-python-with-pyenv/Untitled.md",
+    "posts/python-tutorial-manage-multiple-versions-of-python-with-pyenv",
+    "posts/check-it-out-the-many-meanings-of-git-checkout",
+    "posts/tableau-collaborative-workflows/Untitled.md",
+    "posts/tableau-fix-broken-zn-function/Untitled.md",
+    "posts/tableau-interactive-radar-charts/Untitled.md",
+    "posts/tableau-data-model/Untitled.md",
+    "posts/tableau-window-calculations/Untitled.md",
+    "posts/tableau-proportional-brushing/Untitled.md",
+    "posts/use-cases-for-dynamic-zone-visibility-in-tableau/Untitled.md",
+    "posts/a-guide-to-measure-names-and-measure-values/Untitled.md"
+  ]
 }

@@ -43,6 +43,7 @@ views:
     filters:
       and:
         - file.folder.startsWith("posts")
+        - file.tags.contains("DES6")
     sort:
       - property: date
         direction: DESC

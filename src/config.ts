@@ -239,7 +239,7 @@ export const siteConfig: SiteConfig = {
     showSocialIconsInFooter: true,
   },
   //[CONFIG:HIDE_SCROLL_BAR]
-  hideScrollBar: true,
+  hideScrollBar: false,
   // [CONFIG:SCROLL_TO_TOP]
   scrollToTop: true,
   // [CONFIG:FEATURE_BUTTON]
@@ -263,7 +263,7 @@ export const siteConfig: SiteConfig = {
       // [CONFIG:COMMAND_PALETTE_SEARCH_PAGES]
       pages: false,
       // [CONFIG:COMMAND_PALETTE_SEARCH_PROJECTS]
-      projects: true,
+      projects: false,
       // [CONFIG:COMMAND_PALETTE_SEARCH_DOCS]
       docs: false,
     },
@@ -362,7 +362,7 @@ export const siteConfig: SiteConfig = {
       // [CONFIG:HOME_OPTIONS_RECENT_POSTS_ENABLED]
       enabled: true, // Show recent posts on homepage
       // [CONFIG:HOME_OPTIONS_RECENT_POSTS_COUNT]
-      count: 5, // Number of recent posts to show
+      count: 7, // Number of recent posts to show
     },
     projects: {
       // [CONFIG:HOME_OPTIONS_PROJECTS_ENABLED]
