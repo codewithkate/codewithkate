@@ -5,13 +5,15 @@ description: Examples of how to use the git checkout command
 tags:
   - DES6
   - dbt
-image: "[[wikicommons.jpeg]]"
+image: "[[cover-image.jpeg]]"
 imageAlt: Pink Friday Nicki Minaj with tow copies of Will.I.Am from the Check It Out Music video
 imageOG: false
 hideCoverImage: false
 hideTOC: false
 targetKeyword: ""
 draft: false
+aliases:
+  - git-checkout
 ---
 **Learning** git can fell overwhelming when there are so many commands and options. This is especially true for the `checkout` command which has more than one meaning AND there are alternative commands to do the same thing.
 

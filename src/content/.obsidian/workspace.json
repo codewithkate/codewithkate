@@ -364,7 +364,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "posts/check-it-out-the-many-meanings-of-git-checkout/git-checkout.md",
+                "file": "posts/check-it-out-the-many-meanings-of-git-checkout/index.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -379,7 +379,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "git-checkout"
+              "title": "index"
             }
           },
           {
@@ -556,7 +556,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "posts/check-it-out-the-many-meanings-of-git-checkout/git-checkout.md",
+                "file": "posts/check-it-out-the-many-meanings-of-git-checkout/index.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -571,7 +571,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "git-checkout"
+              "title": "index"
             }
           }
         ],
@@ -648,7 +648,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "posts/check-it-out-the-many-meanings-of-git-checkout/git-checkout.md",
+                "file": "posts/check-it-out-the-many-meanings-of-git-checkout/index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -658,7 +658,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for git-checkout"
+              "title": "Backlinks for index"
             }
           },
           {
@@ -732,11 +732,11 @@
   },
   "active": "0e64b6d3fd65639d",
   "lastOpenFiles": [
+    "posts/check-it-out-the-many-meanings-of-git-checkout/cover-image.jpeg",
+    "posts/check-it-out-the-many-meanings-of-git-checkout/index.md",
     "pages/contact.md",
-    "posts/check-it-out-the-many-meanings-of-git-checkout/git-checkout.md",
     "pages/about.md",
     "pages/privacy-policy.md",
-    "posts/check-it-out-the-many-meanings-of-git-checkout/wikicommons.jpeg",
     "posts/part-1-a-short-history-of-git/Untitled.md",
     "posts/check-it-out-the-many-meanings-of-git-checkout/Check It Out The many meanings of git checkout 359aba325c4180c497dfccbabaebbfd1.md",
     "bases/Home.base",
@@ -776,7 +776,6 @@
     "posts/tableau-fix-broken-zn-function/Untitled.md",
     "posts/tableau-interactive-radar-charts/Untitled.md",
     "posts/tableau-data-model/Untitled.md",
-    "posts/tableau-window-calculations/Untitled.md",
-    "posts/tableau-proportional-brushing/Untitled.md"
+    "posts/tableau-window-calculations/Untitled.md"
   ]
 }
