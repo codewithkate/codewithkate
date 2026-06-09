@@ -18,6 +18,7 @@ draft: false
 aliases:
   - a-short-history-of-sql
 ---
+
 **tldr;** Sankofa is a Twi word meaning "go back and get it." This philosophy encourages us to learn about our collective past when shaping the future. This is also why I start with the names and faces behind the unspoken languages we use to interact with machines. Read on for a short reflection on the history of SQL and it’s abstractions to help you build your tech stack.
 
 ## Where it all began
