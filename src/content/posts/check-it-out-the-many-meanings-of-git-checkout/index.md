@@ -1,20 +1,21 @@
 ---
-title: "Check It Out: The many meanings of git checkout"
+title: "Check It Out: The Many Meanings of Git Checkout"
 posted_on: 2026-06-09
 description: Examples of how to use the git checkout command
 tags:
   - DES6
-  - dbt
+  - git
 image: "[[cover-image.jpeg]]"
 imageAlt: Pink Friday Nicki Minaj with tow copies of Will.I.Am from the Check It Out Music video
 imageOG: false
 hideCoverImage: false
 hideTOC: false
-targetKeyword: ""
+targetKeyword: git checkout
 draft: false
 aliases:
   - git-checkout
 ---
+
 **Learning** git can fell overwhelming when there are so many commands and options. This is especially true for the `checkout` command which has more than one meaning AND there are alternative commands to do the same thing.
 
 I try to simplify `git checkout` into five scenarios:
@@ -34,7 +35,7 @@ Without any arguments or options, we can check the status of our working branch 
 
 We can use `git checkout` to tell if your branch is up to date. Alternatively, `git status` does this and tells us your current working branch and checks for any local commits.
 
-### Three Copies Concept
+### Two Copies Concept
 
 When you name a branch, you get two separate copies of that branch:
 

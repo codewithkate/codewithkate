@@ -388,7 +388,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "posts/python-tutorial-manage-multiple-versions-of-python-with-pyenv/Untitled.md",
+                "file": "posts/python-tutorial-manage-multiple-versions-of-python-with-pyenv/index.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -403,7 +403,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Untitled"
+              "title": "index"
             }
           },
           {
@@ -508,7 +508,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "posts/a-short-history-of-sql/a-short-history-of-sql.md",
+                "file": "posts/a-short-history-of-sql/index.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -523,7 +523,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "a-short-history-of-sql"
+              "title": "index"
             }
           },
           {
@@ -554,24 +554,13 @@
             "id": "0e64b6d3fd65639d",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "bases",
               "state": {
-                "file": "posts/check-it-out-the-many-meanings-of-git-checkout/index.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
+                "file": "bases/Home.base",
+                "viewName": "Posts"
               },
-              "icon": "lucide-file",
-              "title": "index"
+              "icon": "lucide-home",
+              "title": "Home"
             }
           }
         ],
@@ -648,7 +637,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "posts/check-it-out-the-many-meanings-of-git-checkout/index.md",
+                "file": "bases/Home.base",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -658,7 +647,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for index"
+              "title": "Backlinks for Home"
             }
           },
           {
@@ -732,24 +721,28 @@
   },
   "active": "0e64b6d3fd65639d",
   "lastOpenFiles": [
-    "posts/check-it-out-the-many-meanings-of-git-checkout/cover-image.jpeg",
+    "posts/a-short-history-of-sql/index.md",
+    "bases/Home.base",
+    "posts/part-i-a-short-history-of-git/index.md",
+    "posts/python-tutorial-manage-multiple-versions-of-python-with-pyenv/index.md",
+    "posts/reflective-log-data-engineering-training/Untitled.md",
+    "posts/python-tutorial-manage-multiple-versions-of-python-with-pyenv/cover-image.jpeg",
+    "posts/python-tutorial-manage-multiple-versions-of-python-with-pyenv/Python Tutorial Manage Multiple Versions of Python 365aba325c41805f80c1d129a3f9642f.md",
+    "posts/part-i-a-short-history-of-git/cover-image.png",
     "posts/check-it-out-the-many-meanings-of-git-checkout/index.md",
+    "posts/part-i-a-short-history-of-git/Part 1 A Short History of Git 37aaba325c418041a344cf84ad0002a2.md",
+    "posts/a-short-history-of-git/image.png",
+    "posts/a-short-history-of-sql/cover-image.jpg",
+    "posts/check-it-out-the-many-meanings-of-git-checkout/cover-image.jpeg",
     "pages/contact.md",
     "pages/about.md",
     "pages/privacy-policy.md",
-    "posts/part-1-a-short-history-of-git/Untitled.md",
     "posts/check-it-out-the-many-meanings-of-git-checkout/Check It Out The many meanings of git checkout 359aba325c4180c497dfccbabaebbfd1.md",
-    "bases/Home.base",
     "posts/check-it-out-the-many-meanings-of-git-checkout/git-checkout-to-restore-a-file.png",
     "posts/check-it-out-the-many-meanings-of-git-checkout/git-checkout-to-delete-a-file.png",
     "posts/check-it-out-the-many-meanings-of-git-checkout/git-checkout-to-add-a-new-file.png",
     "posts/check-it-out-the-many-meanings-of-git-checkout/git-checkout-and-git-switch.png",
     "posts/check-it-out-the-many-meanings-of-git-checkout/git-checkout-and-git-status.png",
-    "posts/check-it-out-the-many-meanings-of-git-checkout/git-checkout-create-new-branch.png",
-    "posts/check-it-out-the-many-meanings-of-git-checkout/git-push-and-git-checkout.png",
-    "posts/check-it-out-the-many-meanings-of-git-checkout/git-commit-and-git-checkout.png",
-    "posts/check-it-out-the-many-meanings-of-git-checkout/git-add-and-checkout.png",
-    "posts/a-short-history-of-sql/a-short-history-of-sql.md",
     "excalidraw/Drawing 2026-06-08 21.44.38.excalidraw.md",
     "excalidraw/Drawing 2026-06-08 10.08.21.excalidraw.md",
     "excalidraw/Drawing 2026-06-06 11.50.42.excalidraw.md",
@@ -757,8 +750,7 @@
     "posts/what-is-a-data-ecosystem/What is a Data Ecosystem?.md",
     "posts/alteryx-11-steps-to-create-an-iterative-macro-for-pagination/Untitled.md",
     "posts/tableau-table-calculations/Untitled.md",
-    "posts/part-1-a-short-history-of-git",
-    "posts/reflective-log-data-engineering-training/Untitled.md",
+    "posts/part-i-a-short-history-of-git",
     "posts/reflective-log-data-engineering-training",
     "posts/a-short-history-of-sql",
     "posts/dbt-packages/Untitled.md",
@@ -769,13 +761,10 @@
     "posts/dbt-testing",
     "posts/taking-command-of-your-dbt-project/Untitled.md",
     "posts/taking-command-of-your-dbt-project",
-    "posts/python-tutorial-manage-multiple-versions-of-python-with-pyenv/Untitled.md",
     "posts/python-tutorial-manage-multiple-versions-of-python-with-pyenv",
     "posts/check-it-out-the-many-meanings-of-git-checkout",
     "posts/tableau-collaborative-workflows/Untitled.md",
     "posts/tableau-fix-broken-zn-function/Untitled.md",
-    "posts/tableau-interactive-radar-charts/Untitled.md",
-    "posts/tableau-data-model/Untitled.md",
-    "posts/tableau-window-calculations/Untitled.md"
+    "posts/tableau-interactive-radar-charts/Untitled.md"
   ]
 }
