@@ -554,13 +554,24 @@
             "id": "0e64b6d3fd65639d",
             "type": "leaf",
             "state": {
-              "type": "bases",
+              "type": "markdown",
               "state": {
-                "file": "bases/Home.base",
-                "viewName": "Posts"
+                "file": "posts/taking-command-of-your-dbt-project/Untitled.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
               },
-              "icon": "lucide-home",
-              "title": "Home"
+              "icon": "lucide-file",
+              "title": "Untitled"
             }
           }
         ],
@@ -637,7 +648,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "bases/Home.base",
+                "file": "posts/taking-command-of-your-dbt-project/Untitled.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -647,7 +658,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Home"
+              "title": "Backlinks for Untitled"
             }
           },
           {
@@ -721,10 +732,11 @@
   },
   "active": "0e64b6d3fd65639d",
   "lastOpenFiles": [
-    "posts/reflective-log-data-engineering-training/index.md",
-    "posts/reflective-log-data-engineering-training/cover-image.jpeg",
+    "posts/taking-command-of-your-dbt-project/cover-image.png",
     "bases/Home.base",
     "posts/a-short-history-of-sql/index.md",
+    "posts/reflective-log-data-engineering-training/index.md",
+    "posts/reflective-log-data-engineering-training/cover-image.jpeg",
     "posts/part-i-a-short-history-of-git/index.md",
     "posts/python-tutorial-manage-multiple-versions-of-python-with-pyenv/index.md",
     "posts/python-tutorial-manage-multiple-versions-of-python-with-pyenv/cover-image.jpeg",
