@@ -5,7 +5,7 @@ description: Examples of how to use the git checkout command
 tags:
   - DES6
   - dbt
-image: "[](wikicommons.jpeg)"
+image: "[[wikicommons.jpeg]]"
 imageAlt: Pink Friday Nicki Minaj with tow copies of Will.I.Am from the Check It Out Music video
 imageOG: false
 hideCoverImage: false
@@ -23,7 +23,7 @@ I try to simplify `git checkout` into five scenarios:
 4. Restore or add a file from another branch.
 5. Delete a file by overwriting with another branch or file.
 
-## Scenario 1: Get information about the current branch
+## Scenario 1: Branch status
 
 Without any arguments or options, we can check the status of our working branch to make sure it is up to date.
 
@@ -58,7 +58,7 @@ Be sure to `push` to keep your local commit(s) in sync with the remote branch.
 
 ![git push and git checkout](git-push-and-git-checkout.png)
 *git push and git checkout*
-## Scenario 2: Create to a new branch
+## Scenario 2: Create A Branch
 
 Having knowledge of the **two copy concept**, we can introduce the first checkout argument: `<branch>` 
 
@@ -71,7 +71,7 @@ You will get an error if you try to call `git checkout <new-branch>` and a branc
 
 ![git checkout create new branch](git-checkout-create-new-branch.png)
 *git checkout to create a new branch*
-## Scenario 3: Switch to a new branch
+## Scenario 3: Switch Branches
 
 It’s best practice to make all changes away from the main branch. You can use the `checkout` or `switch` commands to switch to different branches.
 
@@ -80,7 +80,7 @@ It’s best practice to make all changes away from the main branch. You can use 
 
 Use whichever command you prefer.
 
-## Scenario 4: Add a file from another branch
+## Scenario 4: Add File From Branch
 
 Here, we introduce the a second checkout argument: `<file>` 
 
@@ -106,7 +106,7 @@ This is the case my example where I only had the [new.py](http://new.py) file in
 ![git checkout to delete a file](git-checkout-to-delete-a-file.png)
 *git checkout to delete a file*
 
-## Scenario 6: Restore a file
+## Scenario 6: Restore File From Branch
 
 If you have switched to a repo and accidently a file you still hav open, then you can simply save it to bring it back to your working directory. However, the file will be untracked in your local and remote branches.
 
