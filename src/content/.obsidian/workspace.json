@@ -179,9 +179,9 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+    "bases/Home.base",
     "docs/materializations.md",
     "posts/common-dbt-commands-when-to-run-what/index.md",
-    "bases/Home.base",
     "docs/snowflake-tutorial-load-data-from-a-stage-into-a-table.md",
     "docs/formatting-reference.md",
     "docs/configuration.md",
