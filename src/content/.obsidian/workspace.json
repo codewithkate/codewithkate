@@ -21,8 +21,33 @@
               "icon": "lucide-home",
               "title": "Home"
             }
+          },
+          {
+            "id": "8e0c099e6e37bbc6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "posts/a-short-history-of-sql-the-language-of-your-data-stack/index.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "index"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -54,7 +79,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "what is a data ecosys",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -79,7 +104,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 275.5
+    "width": 365.5
   },
   "right": {
     "id": "b1a1b9333a960356",
@@ -95,7 +120,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "bases/Home.base",
+                "file": "posts/a-short-history-of-sql-the-language-of-your-data-stack/index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +130,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Home"
+              "title": "Backlinks for index"
             }
           },
           {
@@ -177,9 +202,10 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "e7a7b303c61786dc",
+  "active": "8e0c099e6e37bbc6",
   "lastOpenFiles": [
     "bases/Home.base",
+    "posts/what-is-a-data-ecosystem/What is a Data Ecosystem?.md",
     "docs/materializations.md",
     "posts/common-dbt-commands-when-to-run-what/index.md",
     "docs/snowflake-tutorial-load-data-from-a-stage-into-a-table.md",
@@ -211,7 +237,6 @@
     "excalidraw/Drawing 2026-06-08 10.08.21.excalidraw.md",
     "excalidraw/Drawing 2026-06-06 11.50.42.excalidraw.md",
     "posts/a-short-history-of-sql-the-language-of-your-data-stack/A Short History of SQL The Language Of Your Data S 374aba325c41802581abf42e358f4b7d.md",
-    "posts/what-is-a-data-ecosystem/What is a Data Ecosystem?.md",
     "posts/alteryx-11-steps-to-create-an-iterative-macro-for-pagination/Untitled.md",
     "posts/tableau-table-calculations/Untitled.md",
     "posts/part-i-a-short-history-of-git",
