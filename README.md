@@ -2,7 +2,7 @@
 
 > Helping people make sense of their data
 
-- **Data Analytics Consultant** at [The information Lab](https://www.theinformationlab.co.uk/)
+- **Analytics Engineer** at [The information Lab](https://www.theinformationlab.co.uk/)
 - Experienced in building interactive dashboards and automated reports
 - Skills: Data Analysis, Data Visualisation, Data Transformation, Tableau, PBI, Alteryx
 
