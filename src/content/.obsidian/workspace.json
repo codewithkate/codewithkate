@@ -21,33 +21,8 @@
               "icon": "lucide-home",
               "title": "Home"
             }
-          },
-          {
-            "id": "fae7053879d511af",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "posts/common-dbt-commands-when-to-run-what/index.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "index"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -104,8 +79,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 384.5,
-    "collapsed": true
+    "width": 275.5
   },
   "right": {
     "id": "b1a1b9333a960356",
@@ -121,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "posts/common-dbt-commands-when-to-run-what/index.md",
+                "file": "bases/Home.base",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,7 +105,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for index"
+              "title": "Backlinks for Home"
             }
           },
           {
@@ -203,7 +177,7 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "fae7053879d511af",
+  "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
     "docs/materializations.md",
     "posts/common-dbt-commands-when-to-run-what/index.md",

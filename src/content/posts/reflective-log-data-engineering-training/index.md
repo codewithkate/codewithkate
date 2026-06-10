@@ -11,7 +11,7 @@ imageOG: false
 hideCoverImage: false
 hideTOC: false
 targetKeyword: data engineering school
-draft: false
+draft: true
 ---
 **tldr;** This spring, I welcomed the opportunity to complete a month long study of data engineering in TIL’s London office. In this post, I reflect on what it took to get there, what I did when I got there, and what I’m doingn now that I’m back home.
 
