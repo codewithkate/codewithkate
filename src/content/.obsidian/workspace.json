@@ -28,7 +28,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/materializations.md",
+                "file": "docs/sample-folder-based-post/index.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -43,7 +43,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "materializations"
+              "title": "index"
             }
           }
         ],
@@ -120,7 +120,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/materializations.md",
+                "file": "docs/sample-folder-based-post/index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -130,7 +130,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for materializations"
+              "title": "Backlinks for index"
             }
           },
           {
@@ -204,16 +204,21 @@
   },
   "active": "8e0c099e6e37bbc6",
   "lastOpenFiles": [
+    "docs/sourcetree-and-git-setup/index.md",
+    "docs/sourcetree-and-git-setup/sourcetree.png",
+    "docs/api.md",
+    "docs/configuration.md",
+    "docs/formatting-reference.md",
+    "docs/getting-started.md",
     "docs/installing-obsidian.md",
     "docs/materializations.md",
+    "docs/vault-cms-guide.md",
+    "docs/obsidian-embeds-demo.md",
+    "docs/snowflake-tutorial-load-data-from-a-stage-into-a-table.md",
     "posts/a-short-history-of-sql-the-language-of-your-data-stack/index.md",
     "bases/Home.base",
     "posts/what-is-a-data-ecosystem/What is a Data Ecosystem?.md",
     "posts/common-dbt-commands-when-to-run-what/index.md",
-    "docs/snowflake-tutorial-load-data-from-a-stage-into-a-table.md",
-    "docs/formatting-reference.md",
-    "docs/configuration.md",
-    "docs/api.md",
     "posts/common-dbt-commands-when-to-run-what/cover-image.png",
     "posts/check-it-out-the-many-meanings-of-git-checkout/index.md",
     "posts/reflective-log-data-engineering-training/index.md",
@@ -233,17 +238,12 @@
     "posts/check-it-out-the-many-meanings-of-git-checkout/Check It Out The many meanings of git checkout 359aba325c4180c497dfccbabaebbfd1.md",
     "posts/check-it-out-the-many-meanings-of-git-checkout/git-checkout-to-restore-a-file.png",
     "posts/check-it-out-the-many-meanings-of-git-checkout/git-checkout-to-delete-a-file.png",
-    "posts/check-it-out-the-many-meanings-of-git-checkout/git-checkout-to-add-a-new-file.png",
     "excalidraw/Drawing 2026-06-08 21.44.38.excalidraw.md",
     "excalidraw/Drawing 2026-06-08 10.08.21.excalidraw.md",
     "excalidraw/Drawing 2026-06-06 11.50.42.excalidraw.md",
-    "posts/a-short-history-of-sql-the-language-of-your-data-stack/A Short History of SQL The Language Of Your Data S 374aba325c41802581abf42e358f4b7d.md",
-    "posts/alteryx-11-steps-to-create-an-iterative-macro-for-pagination/Untitled.md",
-    "posts/tableau-table-calculations/Untitled.md",
     "posts/part-i-a-short-history-of-git",
     "posts/reflective-log-data-engineering-training",
     "posts/a-short-history-of-sql-the-language-of-your-data-stack",
-    "posts/dbt-packages/Untitled.md",
     "posts/dbt-packages",
     "posts/dbt-mesh",
     "posts/dbt-testing",

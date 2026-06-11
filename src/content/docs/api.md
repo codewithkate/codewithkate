@@ -4,12 +4,12 @@ description: Complete API reference for the Astro Modular theme
 category: Astro Modular
 order: 2
 version: 0.8.1
-lastModified: 2026-02-22
+lastModified: 2026-06-10
 image:
 imageAlt:
 hideCoverImage: false
 hideTOC: false
-draft: false
+draft: true
 featured: true
 aliases:
   - api-reference

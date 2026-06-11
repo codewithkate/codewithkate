@@ -1,15 +1,15 @@
 ---
 title: "Snowflake Tutorial: Load Data From A Stage Into A Table"
 description: ""
-category: ""
-order:
-version: ""
+category: Snowflake
+order: 1
+version: 1.0.0
 lastModified: 2026-06-09
 image: ""
 imageAlt: ""
 hideCoverImage: false
 hideTOC: false
-draft: false
+draft: true
 featured: false
 ---
 ```sql
