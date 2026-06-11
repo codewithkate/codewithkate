@@ -2,14 +2,14 @@
 title: materializations
 description: ""
 category: dbt
-order:
-version: ""
+order: 1
+version: 1.0.0
 lastModified: 2026-06-10
 image: ""
 imageAlt: ""
 hideCoverImage: false
 hideTOC: false
-draft: false
+draft: true
 featured: false
 ---
 - Explain the three main types of materializations in dbt.
