@@ -28,7 +28,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/sample-folder-based-post/index.md",
+                "file": "docs/vault-cms-guide.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -43,7 +43,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "index"
+              "title": "vault-cms-guide"
             }
           }
         ],
@@ -120,7 +120,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/sample-folder-based-post/index.md",
+                "file": "docs/vault-cms-guide.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -130,7 +130,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for index"
+              "title": "Backlinks for vault-cms-guide"
             }
           },
           {
@@ -204,17 +204,18 @@
   },
   "active": "8e0c099e6e37bbc6",
   "lastOpenFiles": [
-    "docs/sourcetree-and-git-setup/index.md",
-    "docs/sourcetree-and-git-setup/sourcetree.png",
-    "docs/api.md",
-    "docs/configuration.md",
-    "docs/formatting-reference.md",
-    "docs/getting-started.md",
-    "docs/installing-obsidian.md",
-    "docs/materializations.md",
-    "docs/vault-cms-guide.md",
-    "docs/obsidian-embeds-demo.md",
     "docs/snowflake-tutorial-load-data-from-a-stage-into-a-table.md",
+    "docs/obsidian-embeds-demo.md",
+    "docs/materializations.md",
+    "docs/installing-obsidian.md",
+    "docs/getting-started.md",
+    "docs/formatting-reference.md",
+    "docs/configuration.md",
+    "docs/api.md",
+    "docs/sourcetree-and-git-setup/index.md",
+    "docs/sample-folder-based-post/index.md",
+    "docs/sourcetree-and-git-setup/sourcetree.png",
+    "docs/vault-cms-guide.md",
     "posts/a-short-history-of-sql-the-language-of-your-data-stack/index.md",
     "bases/Home.base",
     "posts/what-is-a-data-ecosystem/What is a Data Ecosystem?.md",
@@ -240,7 +241,6 @@
     "posts/check-it-out-the-many-meanings-of-git-checkout/git-checkout-to-delete-a-file.png",
     "excalidraw/Drawing 2026-06-08 21.44.38.excalidraw.md",
     "excalidraw/Drawing 2026-06-08 10.08.21.excalidraw.md",
-    "excalidraw/Drawing 2026-06-06 11.50.42.excalidraw.md",
     "posts/part-i-a-short-history-of-git",
     "posts/reflective-log-data-engineering-training",
     "posts/a-short-history-of-sql-the-language-of-your-data-stack",
