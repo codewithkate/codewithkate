@@ -1,9 +1,9 @@
 ---
 title: materializations
-description: ""
+description: "Required course objectives"
 category: dbt
-order: 1
-version: 1.0.0
+order: 2
+version: 0.40.17
 lastModified: 2026-06-10
 image: ""
 imageAlt: ""
@@ -13,6 +13,7 @@ draft: true
 featured: false
 ---
 - Explain the three main types of materializations in dbt.
+	- all of these can be configured in dbt_project.yml or wiht a config block.
 	- tables
 		- data is stored in the warehouse
 		- fast and consistent queries for bi applications
@@ -36,6 +37,8 @@ models:
 		# Always get the latest data from models/staging/
 		staging:
 			+materialized: view
+			base:
+			+materialized: ephemeral
 		# Data for applications in models/marts/
 		marts:
 			+materialized: table
