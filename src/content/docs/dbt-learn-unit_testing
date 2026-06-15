@@ -1,0 +1,32 @@
+# Basics
+
+Explain the concept of unit testing in a data context
+Explain the benefits of unit testing as a practice
+Identify high leverage use cases for implementing unit tests
+Contrast unit testing to data testing in dbt
+    all are defined in yaml
+    before materialization = unit_tests
+    blocks materialization = constraints
+    after materialization= data_tests
+Explain the benefits of native unit testing in dbt vs. existing packages that leverage data testing
+
+
+Test driven development (TDD) is a methodology borrowed from software development. It involves writing tests first, then writing the code that will pass those tests. This method empowers you to think deeply about the core functionality of the code you're writing before you start coding.
+Unit testing within the TDD framework aims to cover all possible use cases, including edge cases, to ensure your code behaves correctly under all circumstances.
+The benefits of unit testing include improved code quality, accelerated debugging, and improved focus for developers.
+It's important to re-test code each time you make a change to make sure you don't introduce new errors during the debugging process.
+Unit testing in dbt involves testing data transformation logic in your models.
+
+# BUild a unit test
+
+Run a unit test in dbt Cloud
+Explain how unit tests impact the dbt build command
+Construct a unit test with JSON format and inline CSV
+Construct a unit test by referencing a fixture
+Update an existing test
+Organize unit tests into an existing dbt project
+
+docs.getdbt.com/docs/build/unit-tests
+docs.getdbt.com/reference/recourse-properties/unit-tests
+docs.getdbt/com/reference/resource-properties/data-formats
+docs.getdbt.com/reference/resource-properties/unit-testing-versions

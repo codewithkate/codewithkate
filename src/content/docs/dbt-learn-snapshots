@@ -1,0 +1,4 @@
+Explain the use-cases for snapshots
+Describe snapshot strategies
+Summarize snapshot best practices and adapt them to their use case
+Implement snapshots in a dbt Cloud project
