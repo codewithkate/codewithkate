@@ -43,3 +43,11 @@ Every feature can be toggled on or off through a single configuration file. Enab
 ---
 ![Water droplet](attachments/water.png)
 *Photo by [Herbert Goetsch](https://unsplash.com/@hg_photo?utm_source=Obsidian%20Image%20Inserter%20Plugin&utm_medium=referral) on [Unsplash](https://unsplash.com/?utm_source=Obsidian%20Image%20Inserter%20Plugin&utm_medium=referral)*
+
+Reduce manual work: Lower the time required to create monthly financial reports by eight hours (10 to two) in three months.
+Increase usage: Achieve at least 70 percent of campaign managers using the new marketing dashboard actively within six weeks.
+To effectively monitor progress, think of metrics that indicate user engagement and the general health of your data products, which include:
+
+Adoption rate: Proportion of planned users who are actively searching the data product.
+Data freshness: The gap between the availability of data in the source system and the product.
+User satisfaction: Review survey data or NPS scores to learn how users rate ease of use and trust.

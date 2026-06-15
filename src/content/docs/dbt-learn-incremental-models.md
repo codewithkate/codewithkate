@@ -57,7 +57,7 @@ Using incremental models with CI jobs
     dbt build --select state:modified+
     Because of your first clone step, the incremental models selected in your dbt build on the second step will run in incremental mode.
 Dealing with schema changes
-    on_schema_change configf
+    on_schema_change config
         ignore: new columns will not be in the target table and and if you remove a column it will fail
         fail: trigger error message if anything changes
         append_new_columns: add new columns and deleted columns are filled with nulls but still appear in the table

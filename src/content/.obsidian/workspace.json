@@ -4,50 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "4509724f8bf84da7",
+        "id": "c1cdfc157a11d625",
         "type": "tabs",
         "children": [
           {
-            "id": "e7a7b303c61786dc",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "bases",
-              "state": {
-                "file": "bases/Home.base",
-                "viewName": "Posts"
-              },
-              "pinned": true,
-              "icon": "lucide-home",
-              "title": "Home"
-            }
-          },
-          {
-            "id": "8e0c099e6e37bbc6",
+            "id": "7946fcd1910437a9",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/vault-cms-guide.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "vault-cms-guide"
+              "title": "New tab"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -120,7 +90,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/vault-cms-guide.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -130,7 +99,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for vault-cms-guide"
+              "title": "Backlinks"
             }
           },
           {
@@ -202,8 +171,23 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "8e0c099e6e37bbc6",
+  "active": "7946fcd1910437a9",
   "lastOpenFiles": [
+    "bases/Home.base",
+    "docs/snowflake-stages.md",
+    "docs/yaml-basics.md",
+    "excalidraw/Drawing 2026-06-08 10.08.21.excalidraw.md",
+    "excalidraw/Drawing 2026-06-08 21.44.38.excalidraw.md",
+    "excalidraw/Drawing 2026-06-06 11.50.42.excalidraw.md",
+    "posts/git-checkout/index.md",
+    "posts/dbt-expectations/index.md",
+    "posts/dbt-commands/index.md",
+    "posts/data-engineering-training/index.md",
+    "posts/a-short-history-of-sql/index.md",
+    "posts/a-short-history-of-git/index.md",
+    "excalidraw/C7C4F384-457E-477A-A0C0-6B2E8404BF90.png",
+    "excalidraw/stage-movie-appreciation-svgrepo-com-2.svg",
+    "excalidraw/git-svgrepo-com.svg",
     "docs/snowflake-tutorial-load-data-from-a-stage-into-a-table.md",
     "docs/obsidian-embeds-demo.md",
     "docs/materializations.md",
@@ -217,30 +201,14 @@
     "docs/sourcetree-and-git-setup/sourcetree.png",
     "docs/vault-cms-guide.md",
     "posts/a-short-history-of-sql-the-language-of-your-data-stack/index.md",
-    "bases/Home.base",
     "posts/what-is-a-data-ecosystem/What is a Data Ecosystem?.md",
     "posts/common-dbt-commands-when-to-run-what/index.md",
     "posts/common-dbt-commands-when-to-run-what/cover-image.png",
-    "posts/check-it-out-the-many-meanings-of-git-checkout/index.md",
-    "posts/reflective-log-data-engineering-training/index.md",
     "posts/reflective-log-data-engineering-training/cover-image.jpeg",
-    "posts/part-i-a-short-history-of-git/index.md",
-    "posts/python-tutorial-manage-multiple-versions-of-python-with-pyenv/index.md",
     "posts/python-tutorial-manage-multiple-versions-of-python-with-pyenv/cover-image.jpeg",
-    "posts/python-tutorial-manage-multiple-versions-of-python-with-pyenv/Python Tutorial Manage Multiple Versions of Python 365aba325c41805f80c1d129a3f9642f.md",
     "posts/part-i-a-short-history-of-git/cover-image.png",
-    "posts/part-i-a-short-history-of-git/Part 1 A Short History of Git 37aaba325c418041a344cf84ad0002a2.md",
     "posts/a-short-history-of-git/image.png",
     "posts/a-short-history-of-sql-the-language-of-your-data-stack/cover-image.jpg",
-    "posts/check-it-out-the-many-meanings-of-git-checkout/cover-image.jpeg",
-    "pages/contact.md",
-    "pages/about.md",
-    "pages/privacy-policy.md",
-    "posts/check-it-out-the-many-meanings-of-git-checkout/Check It Out The many meanings of git checkout 359aba325c4180c497dfccbabaebbfd1.md",
-    "posts/check-it-out-the-many-meanings-of-git-checkout/git-checkout-to-restore-a-file.png",
-    "posts/check-it-out-the-many-meanings-of-git-checkout/git-checkout-to-delete-a-file.png",
-    "excalidraw/Drawing 2026-06-08 21.44.38.excalidraw.md",
-    "excalidraw/Drawing 2026-06-08 10.08.21.excalidraw.md",
     "posts/part-i-a-short-history-of-git",
     "posts/reflective-log-data-engineering-training",
     "posts/a-short-history-of-sql-the-language-of-your-data-stack",
