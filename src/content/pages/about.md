@@ -1,53 +1,35 @@
 ---
 title: About
-description: Learn more about Astro Modular and the philosophy behind its design approach.
+description: Learn more about this site and a little about me.
 noIndex: false
 hideTOC: false
-draft: true
+draft: false
 aliases:
   - about-me
   - about-us
 ---
-Welcome to **Astro Modular**, an Astro blog theme template designed for Obsidian users, created by [David V. Kimball](https://davidvkimball.com). This theme turns Obsidian into a powerful CMS for instant blog publishing.
+Alrighty, y'all. My name is Kaitlen Crawford. I go by Kate or Kait or KC. I dread About pages and introductions, so I'll keep this short and sweet. 
 
-## Philosophy
+Biographies and fantasy novels have a hold on me, today. But, there was a time when I read plenty of productivity books. The most impactful being related to second brains and minimalism. 
 
-Great content deserves great presentation without complexity. This blog theme is built on four core principles:
+As a Zillenial working in the information sector, there is so much to take in. To help define my domain interests, I've spent years capturing and processing information in the comfort of my local markdown editor. This site is a way to share those connections.
 
-### Clarity First
-Content should be the star, not the design. Every element is carefully crafted to enhance readability and focus attention on what matters most - your ideas and writing.
-
-### Highly Performant
-Fast loading times and smooth interactions are not optional. Every aspect of this theme has been optimized to deliver exceptional performance across all devices.
-
-### Works with Obsidian
-If you use Obsidian, this theme is a natural extension of your workflow. All rich markdown and extended markdown features, including Wikilinks, callouts, and other embedded features, display seamlessly between your vault and published site.
-
-### Modular Design
-Every feature can be toggled on or off through a single configuration file. Enable only what you need, keeping your site fast and focused on your specific use case.
-
----
-
-## Pages to Check Out
-
-- [Contact](pages/contact.md) page with a form
-- [Thank You](pages/thank-you.md) page where submitters are directed after a successful submission 
-- [Privacy Policy](pages/privacy-policy.md) page
+Comments are turned on and [my inbox](contact.md) is open.
 
 ---
 
 ## Posts to Check Out
-- [[../docs/getting-started|Getting Started]]
-- [Astro Suite Vault (Modular) Guide](posts/astro-suite-vault-modular-guide.md) 
+
+- [A Short History of SQL: The Language Of Your Data Stack](../posts/a-short-history-of-sql/index.md)
+- [Common dbt Commands: When to Run What](../posts/dbt-commands/index.md)
+- [Check It Out: The Many Meanings of Git Checkout](../posts/git-checkout/index.md)
 
 ---
-![Water droplet](attachments/water.png)
-*Photo by [Herbert Goetsch](https://unsplash.com/@hg_photo?utm_source=Obsidian%20Image%20Inserter%20Plugin&utm_medium=referral) on [Unsplash](https://unsplash.com/?utm_source=Obsidian%20Image%20Inserter%20Plugin&utm_medium=referral)*
 
-Reduce manual work: Lower the time required to create monthly financial reports by eight hours (10 to two) in three months.
-Increase usage: Achieve at least 70 percent of campaign managers using the new marketing dashboard actively within six weeks.
-To effectively monitor progress, think of metrics that indicate user engagement and the general health of your data products, which include:
+## Helpful Docs
 
-Adoption rate: Proportion of planned users who are actively searching the data product.
-Data freshness: The gap between the availability of data in the source system and the product.
-User satisfaction: Review survey data or NPS scores to learn how users rate ease of use and trust.
+- [dbt-learn](../docs/dbt-learn.md)
+- [dbt-best-practices](../docs/dbt-best-practices.md)
+
+---
+

@@ -271,21 +271,21 @@
       "key": "O"
     }
   ],
-  "obsidian-excalidraw-plugin:excalidraw-autocreate-popout": [
-    {
-      "modifiers": [
-        "Alt",
-        "Mod"
-      ],
-      "key": "E"
-    }
-  ],
   "astro-composer:create-content-type-content-1765432406133": [
     {
       "modifiers": [
         "Mod"
       ],
       "key": "A"
+    }
+  ],
+  "obsidian-excalidraw-plugin:excalidraw-autocreate-newtab": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod"
+      ],
+      "key": "E"
     }
   ]
 }

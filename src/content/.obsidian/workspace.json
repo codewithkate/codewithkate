@@ -4,20 +4,36 @@
     "type": "split",
     "children": [
       {
-        "id": "c1cdfc157a11d625",
+        "id": "4509724f8bf84da7",
         "type": "tabs",
         "children": [
           {
-            "id": "7946fcd1910437a9",
+            "id": "e7a7b303c61786dc",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "bases",
+              "state": {
+                "file": "bases/Home.base",
+                "viewName": "Posts"
+              },
+              "pinned": true,
+              "icon": "lucide-home",
+              "title": "Home"
+            }
+          },
+          {
+            "id": "28e22fee24a280f9",
             "type": "leaf",
             "state": {
-              "type": "empty",
+              "type": "graph",
               "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -74,7 +90,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 365.5
+    "width": 279.5004348754883,
+    "collapsed": true
   },
   "right": {
     "id": "b1a1b9333a960356",
@@ -171,52 +188,53 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "7946fcd1910437a9",
+  "active": "28e22fee24a280f9",
   "lastOpenFiles": [
+    "posts.md",
+    "docs/dbt-best-practices.md",
+    "docs/dbt-learn.md",
+    "docs/dbt-practice-quizzes.md",
     "bases/Home.base",
-    "docs/snowflake-stages.md",
-    "docs/yaml-basics.md",
-    "excalidraw/Drawing 2026-06-08 10.08.21.excalidraw.md",
-    "excalidraw/Drawing 2026-06-08 21.44.38.excalidraw.md",
-    "excalidraw/Drawing 2026-06-06 11.50.42.excalidraw.md",
-    "posts/git-checkout/index.md",
-    "posts/dbt-expectations/index.md",
+    "docs/dbt-learn-debug-errors.md",
     "posts/dbt-commands/index.md",
-    "posts/data-engineering-training/index.md",
-    "posts/a-short-history-of-sql/index.md",
-    "posts/a-short-history-of-git/index.md",
+    "docs/environment-variables-order-of-precedence.png",
+    "docs/setting-project-level-and-environment-level-values.png",
+    "pages/about.md",
+    "pages/contact.md",
+    "special/404.md",
+    "special/projects.md",
+    "special/posts.md",
+    "special/home.md",
+    "projects/astro-composer.md",
+    "excalidraw/zero-copy-cloning.md",
+    "excalidraw/ci-jobs.md",
+    "excalidraw/Drawing 2026-06-17 09.17.42.excalidraw.md",
+    "docs/dbt-learn-incremental_models.md",
+    "docs/dbt-learn-exposures.sb-6bbcdbcc-Q1F784",
+    "posts/dbt-learn-exposures.md",
+    "docs/snowflake-stages.md",
+    "docs/api.md",
+    "docs/attachments/ocean-view.jpg",
+    "special/docs.md",
+    "docs/attachments/document.pdf",
+    "docs/analyses-and-seeds.md",
+    "posts/missouri-tableau-office-hours",
+    "posts/dbt-hooks/index.md",
+    "posts/missouri-tableau-office-hours/index.md",
+    "docs/dbt-learn-materializations.md",
+    "docs/dbt-learn-fundamentals.md",
     "excalidraw/C7C4F384-457E-477A-A0C0-6B2E8404BF90.png",
     "excalidraw/stage-movie-appreciation-svgrepo-com-2.svg",
     "excalidraw/git-svgrepo-com.svg",
-    "docs/snowflake-tutorial-load-data-from-a-stage-into-a-table.md",
-    "docs/obsidian-embeds-demo.md",
-    "docs/materializations.md",
-    "docs/installing-obsidian.md",
-    "docs/getting-started.md",
-    "docs/formatting-reference.md",
-    "docs/configuration.md",
-    "docs/api.md",
-    "docs/sourcetree-and-git-setup/index.md",
-    "docs/sample-folder-based-post/index.md",
     "docs/sourcetree-and-git-setup/sourcetree.png",
-    "docs/vault-cms-guide.md",
-    "posts/a-short-history-of-sql-the-language-of-your-data-stack/index.md",
-    "posts/what-is-a-data-ecosystem/What is a Data Ecosystem?.md",
-    "posts/common-dbt-commands-when-to-run-what/index.md",
     "posts/common-dbt-commands-when-to-run-what/cover-image.png",
     "posts/reflective-log-data-engineering-training/cover-image.jpeg",
     "posts/python-tutorial-manage-multiple-versions-of-python-with-pyenv/cover-image.jpeg",
-    "posts/part-i-a-short-history-of-git/cover-image.png",
-    "posts/a-short-history-of-git/image.png",
-    "posts/a-short-history-of-sql-the-language-of-your-data-stack/cover-image.jpg",
     "posts/part-i-a-short-history-of-git",
     "posts/reflective-log-data-engineering-training",
     "posts/a-short-history-of-sql-the-language-of-your-data-stack",
     "posts/dbt-packages",
     "posts/dbt-mesh",
-    "posts/dbt-testing",
-    "posts/common-dbt-commands-when-to-run-what",
-    "posts/python-tutorial-manage-multiple-versions-of-python-with-pyenv",
-    "posts/check-it-out-the-many-meanings-of-git-checkout"
+    "posts/dbt-testing"
   ]
 }

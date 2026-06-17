@@ -181,6 +181,7 @@ In production, it is important to continue testing your code to catch failures w
 When proposing changes / opening a pull or merge request, we can run automated tests against our proposed changes to catch any issues that may not have been caught in the development cycle mentioned above.
 
 On a middle / qa branch, it can be helpful to test a batch of changes that have been made in an isolated testing environment before then merging the code to the main / production branch.
+
 ---
 ### **Navigate the DAG**
 
@@ -216,16 +217,25 @@ On a middle / qa branch, it can be helpful to test a batch of changes that have 
 ---
 ## **How to Use Commands** 
 
+## Command failures
 
+it's good to be aware of how downstream models are impacted by different [job commands](dbt-best-practices.md#**job%20commands**):
+
+- `dbt run` - skips downstream models are `on_error: continue` is configured in the model schema yaml. 
+- `dbt test` - stops the run or skips downstream models depending on which [severity](https://docs.getdbt.com/reference/resource-configs/severity?version=2.0&name=Fusion) is configured.
+- `dbt build` - skips downstream models are `on_error: continue` is configured in the model schema yaml. 
+- `--select` - fails if no match or there are multiple matches. 
+
+Be sure to read the error message, inspect failed files, and get comfortable compiling (`target/compiled)` and checking the logs (`logs/dbt.log`).
 
 ### **Command arguments**
 
-Select a subset:
-*--select*
+***--select***
 
-*--exclude*
+***--exclude***
 
-*--defer*
+***--defer***
+
 Access resources in other environments. The benefit of dbt is that you join a project using your own schema. It's a similar priniciple to git in that you can develop resources wihtout interferring with others' work. The cost is that you are using more storage and compute to maintain multiple environments connecting to your warehouse.
 
 You could `dbt clone` another environment's resources to bring them into your local environment. It's more cost efficient if you can reference another environment that already has manifested those resources. For example, you can fix a bug in one model and build it using upstream resources from production:
@@ -234,11 +244,11 @@ You could `dbt clone` another environment's resources to bring them into your lo
 
 [Learn more](https://medium.com/@meagsp/using-defer-in-dbt-to-save-time-and-money-26c860cfb7dc)
 
-*--resource-type*
+***--resource-type***
 
-*--inline*
+***--inline***
 
-## **Quick References**
+## **References**
 
 | argument | --- | --- |
 | --- | --- | --- |
