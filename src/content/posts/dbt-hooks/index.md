@@ -23,11 +23,12 @@ Use hooks and operations to write custom DDL commands to handle schema changes i
 
 ## Usage
 
-### Automatically add new columns
+- Automatically add new columns
+- Prevent ambiguity
+- Future-proof column order
+- Change data types
+- Rename database resources
 
-### Prevent ambiguity
-
-### Future-proof column order
-
-### 
-
+```sql
+dbt_utils.union_relations -- fill with null
+```

@@ -1,5 +1,5 @@
 {
-  "showInlineTitle": false,
+  "showInlineTitle": true,
   "promptDelete": false,
   "showIndentGuide": false,
   "attachmentFolderPath": "./",
@@ -40,5 +40,6 @@
   "vimMode": false,
   "readableLineLength": true,
   "defaultViewMode": "source",
-  "openBehavior": ""
+  "openBehavior": "",
+  "showUnsupportedFiles": true
 }

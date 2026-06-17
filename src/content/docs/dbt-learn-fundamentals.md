@@ -1,16 +1,18 @@
 ---
-title: fundamentals
-description: "Required course objectives"
+title: dbt-learn-fundamentals
+description: ""
 category: dbt
 order: 1
-version: 0.40.17
-lastModified: 2026-06-10
+version: ""
+lastModified: 2026-06-15
 image: ""
 imageAlt: ""
 hideCoverImage: false
 hideTOC: false
-draft: true
+draft: false
 featured: false
+aliases:
+  - fundamentals
 ---
 
 # dbt and the ADLC

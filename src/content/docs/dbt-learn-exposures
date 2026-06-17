@@ -27,3 +27,5 @@ To run all nodes upstream of an exposure, use the command dbt run --select +expo
 To run all nodes upstream of all exposures, use the command dbt run --select +exposure:*
 You can view exposures in the docs site after running the command dbt docs generate
 You can view exposures configured in your main branch in dbt Catalogue after successfully running a production job.
+
+Sync dbt and Tableau with lineage integration: https://docs.getdbt.com/docs/platform-integrations/downstream-exposures-tableau?version=2.0&name=Fusion

@@ -1,16 +1,18 @@
 ---
 title: incremental models
-description: "Required course objectives"
+description: Required course objectives
 category: dbt
 order: 5
 version: 0.40.17
-lastModified: 2026-06-10
+lastModified: 2026-06-16
 image: ""
 imageAlt: ""
 hideCoverImage: false
 hideTOC: false
 draft: true
 featured: false
+aliases:
+  - dbt-learn-incremental-models
 ---
 
 # Configuration
@@ -31,10 +33,10 @@ Identify and explain the 4 required conditions for a model to be built increment
 # Strategy
 
 Explain a potential strategy for accommodating late-arriving data in incremental models, and the trade-offs that late-arriving data introduce.
-    confige a unique key
+    config a unique key
     get data arrival time
     get latest date required
-    cutoff is between arribal and latest date
+    cutoff is between arrival and latest date
     performe full-refresh once a week
 Explain each of the 5 incremental strategies and a potential use case for each.
     *append* immutable events
