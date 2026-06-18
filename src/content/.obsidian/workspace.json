@@ -29,7 +29,7 @@
               "type": "markdown",
               "state": {
                 "file": "docs/dbt-practice-quizzes.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -204,12 +204,13 @@
   },
   "active": "5e7d445c6d19ee38",
   "lastOpenFiles": [
-    "docs/dbt-analytics-engineering-exam-post-mortem.md",
+    "dbt-practice-quizzes.pdf",
+    "docs/dbt-learn-advanced-testing.md",
     "docs/dbt-practice-quizzes.md",
+    "docs/dbt-analytics-engineering-exam-post-mortem.md",
     "docs/dbt-best-practices.md",
     "bases/Home.base",
     "docs/dbt-learn.md",
-    "docs/dbt-learn-advanced-testing.md",
     "docs/dbt-learn-advanced_testing.txt.sb-6bbcdbcc-1GKcYy",
     "posts/dbt-learn-advanced-testing.md",
     "docs/dbt-learn-advanced_testing.txt",
@@ -239,7 +240,6 @@
     "docs/snowflake-stages.md",
     "docs/api.md",
     "docs/attachments/ocean-view.jpg",
-    "special/docs.md",
     "docs/attachments/document.pdf",
     "posts/missouri-tableau-office-hours",
     "excalidraw/C7C4F384-457E-477A-A0C0-6B2E8404BF90.png",
