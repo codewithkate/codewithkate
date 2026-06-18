@@ -224,3 +224,4 @@ __marimo__/
 .astro
 node_modules/
 *.DS_Store
+/src/content/docs/*.txt

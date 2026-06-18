@@ -190,6 +190,12 @@
   },
   "active": "28e22fee24a280f9",
   "lastOpenFiles": [
+    "docs/dbt-learn-advanced_testing.txt",
+    "docs/dbt-learn-exposures.txt",
+    "docs/dbt-learn-unit_testing.txt",
+    "docs/dbt-learn-snapshots.txt",
+    "docs/dbt-learn-refactoring.md",
+    "docs/dbt-learn-mesh.md",
     "posts.md",
     "docs/dbt-best-practices.md",
     "docs/dbt-learn.md",
@@ -220,9 +226,6 @@
     "docs/analyses-and-seeds.md",
     "posts/missouri-tableau-office-hours",
     "posts/dbt-hooks/index.md",
-    "posts/missouri-tableau-office-hours/index.md",
-    "docs/dbt-learn-materializations.md",
-    "docs/dbt-learn-fundamentals.md",
     "excalidraw/C7C4F384-457E-477A-A0C0-6B2E8404BF90.png",
     "excalidraw/stage-movie-appreciation-svgrepo-com-2.svg",
     "excalidraw/git-svgrepo-com.svg",
@@ -232,9 +235,6 @@
     "posts/python-tutorial-manage-multiple-versions-of-python-with-pyenv/cover-image.jpeg",
     "posts/part-i-a-short-history-of-git",
     "posts/reflective-log-data-engineering-training",
-    "posts/a-short-history-of-sql-the-language-of-your-data-stack",
-    "posts/dbt-packages",
-    "posts/dbt-mesh",
-    "posts/dbt-testing"
+    "posts/a-short-history-of-sql-the-language-of-your-data-stack"
   ]
 }
