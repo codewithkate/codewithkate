@@ -4,7 +4,7 @@ description: ""
 category: ""
 order:
 version: ""
-lastModified: 2026-06-17
+lastModified: 2026-06-18
 image: ""
 imageAlt: ""
 hideCoverImage: false
@@ -28,7 +28,7 @@ featured: false
 
 ## Pipeline Resiliency
 
-- [Advanced Testing](dbt-learn-advanced-testing):
+- [Advanced Testing](../docs/dbt-learn-advanced-testing.md):
 - [Unit Testing](dbt-learn-unit_testing):
 - [Exposures](dbt-learn-exposures):
 

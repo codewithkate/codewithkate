@@ -165,11 +165,6 @@ ci/cd is how you can automate your development and deployment workflows. dbt lis
 
 # Packages
 
-Next, [Qana Labs Practice Quizzes](https://www.qanalabs.com/courses/take/dbt-developer/) 
+Next, [dbt-practice-quizzes](docs/dbt-practice-quizzes.md)
 
->[!note] Notes on Qana Quizzes
->- Question can be repeated within the same quiz. This is helpful for recall but misleading in final scoring.
->- Answers rely on verbatim references to documentation and guides that are not always included in the official study guide.
->- Will the actual exam reference multiple datawarehouses? (Snowflake and Redshift and \<other data platform\>)
->- 
 

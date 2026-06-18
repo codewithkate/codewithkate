@@ -23,13 +23,27 @@
             }
           },
           {
-            "id": "28e22fee24a280f9",
+            "id": "5e7d445c6d19ee38",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "docs/dbt-practice-quizzes.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "dbt-practice-quizzes"
             }
           }
         ],
@@ -90,8 +104,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 279.5004348754883,
-    "collapsed": true
+    "width": 279.5004348754883
   },
   "right": {
     "id": "b1a1b9333a960356",
@@ -107,6 +120,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "docs/dbt-practice-quizzes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +130,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for dbt-practice-quizzes"
             }
           },
           {
@@ -188,8 +202,16 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "28e22fee24a280f9",
+  "active": "5e7d445c6d19ee38",
   "lastOpenFiles": [
+    "docs/dbt-analytics-engineering-exam-post-mortem.md",
+    "docs/dbt-practice-quizzes.md",
+    "docs/dbt-best-practices.md",
+    "bases/Home.base",
+    "docs/dbt-learn.md",
+    "docs/dbt-learn-advanced-testing.md",
+    "docs/dbt-learn-advanced_testing.txt.sb-6bbcdbcc-1GKcYy",
+    "posts/dbt-learn-advanced-testing.md",
     "docs/dbt-learn-advanced_testing.txt",
     "docs/dbt-learn-exposures.txt",
     "docs/dbt-learn-unit_testing.txt",
@@ -197,10 +219,6 @@
     "docs/dbt-learn-refactoring.md",
     "docs/dbt-learn-mesh.md",
     "posts.md",
-    "docs/dbt-best-practices.md",
-    "docs/dbt-learn.md",
-    "docs/dbt-practice-quizzes.md",
-    "bases/Home.base",
     "docs/dbt-learn-debug-errors.md",
     "posts/dbt-commands/index.md",
     "docs/environment-variables-order-of-precedence.png",
@@ -223,9 +241,7 @@
     "docs/attachments/ocean-view.jpg",
     "special/docs.md",
     "docs/attachments/document.pdf",
-    "docs/analyses-and-seeds.md",
     "posts/missouri-tableau-office-hours",
-    "posts/dbt-hooks/index.md",
     "excalidraw/C7C4F384-457E-477A-A0C0-6B2E8404BF90.png",
     "excalidraw/stage-movie-appreciation-svgrepo-com-2.svg",
     "excalidraw/git-svgrepo-com.svg",
@@ -233,8 +249,6 @@
     "posts/common-dbt-commands-when-to-run-what/cover-image.png",
     "posts/reflective-log-data-engineering-training/cover-image.jpeg",
     "posts/python-tutorial-manage-multiple-versions-of-python-with-pyenv/cover-image.jpeg",
-    "posts/part-i-a-short-history-of-git",
-    "posts/reflective-log-data-engineering-training",
-    "posts/a-short-history-of-sql-the-language-of-your-data-stack"
+    "posts/part-i-a-short-history-of-git"
   ]
 }
