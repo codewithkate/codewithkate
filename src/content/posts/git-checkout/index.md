@@ -1,5 +1,5 @@
 ---
-title: "Check It Out: The Many Meanings of Git Checkout"
+title: The Many Meanings of Git Checkout
 posted_on: 2026-06-09
 description: Examples of how to use the git checkout command
 tags:
@@ -12,10 +12,7 @@ hideCoverImage: false
 hideTOC: false
 targetKeyword: git checkout
 draft: false
-aliases:
-  - git-checkout
 ---
-
 **Learning** git can fell overwhelming when there are so many commands and options. This is especially true for the `checkout` command which has more than one meaning AND there are alternative commands to do the same thing.
 
 I try to simplify `git checkout` into five scenarios:

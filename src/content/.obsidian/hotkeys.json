@@ -275,5 +275,32 @@
       ],
       "key": "E"
     }
+  ],
+  "astro-composer:create-content-type-pages-1765432337485": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod"
+      ],
+      "key": "1"
+    }
+  ],
+  "astro-composer:create-content-type-posts-1765432337485": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod"
+      ],
+      "key": "2"
+    }
+  ],
+  "astro-composer:create-content-type-content-1765432392567": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod"
+      ],
+      "key": "3"
+    }
   ]
 }

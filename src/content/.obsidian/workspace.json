@@ -15,39 +15,14 @@
               "type": "bases",
               "state": {
                 "file": "bases/Home.base",
-                "viewName": "Posts"
+                "viewName": "Projects"
               },
               "pinned": true,
               "icon": "lucide-home",
               "title": "Home"
             }
-          },
-          {
-            "id": "5e7d445c6d19ee38",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/dbt-practice-quizzes.md",
-                "mode": "preview",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "dbt-practice-quizzes"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -104,7 +79,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 279.5004348754883
+    "width": 279.5004348754883,
+    "collapsed": true
   },
   "right": {
     "id": "b1a1b9333a960356",
@@ -120,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/dbt-practice-quizzes.md",
+                "file": "bases/Home.base",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -130,7 +106,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for dbt-practice-quizzes"
+              "title": "Backlinks for Home"
             }
           },
           {
@@ -168,13 +144,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "excalidraw/Screenshot 2026-06-08 at 10.20.23 AM.png",
+                "file": "bases/Home.base",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Screenshot 2026-06-08 at 10.20.23 AM"
+              "title": "Outline of Home"
             }
           }
         ],
@@ -182,7 +158,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
+    "width": 200,
     "collapsed": true
   },
   "left-ribbon": {
@@ -202,53 +178,53 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "5e7d445c6d19ee38",
+  "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
-    "dbt-practice-quizzes.pdf",
-    "docs/dbt-learn-advanced-testing.md",
-    "docs/dbt-practice-quizzes.md",
-    "docs/dbt-analytics-engineering-exam-post-mortem.md",
-    "docs/dbt-best-practices.md",
+    "posts/astro-garden/index.md",
+    "excalidraw/Drawing 2026-06-21 17.20.26.excalidraw.md",
+    "posts/astro-garden",
     "bases/Home.base",
-    "docs/dbt-learn.md",
-    "docs/dbt-learn-advanced_testing.txt.sb-6bbcdbcc-1GKcYy",
-    "posts/dbt-learn-advanced-testing.md",
-    "docs/dbt-learn-advanced_testing.txt",
-    "docs/dbt-learn-exposures.txt",
-    "docs/dbt-learn-unit_testing.txt",
-    "docs/dbt-learn-snapshots.txt",
-    "docs/dbt-learn-refactoring.md",
-    "docs/dbt-learn-mesh.md",
-    "posts.md",
-    "docs/dbt-learn-debug-errors.md",
-    "posts/dbt-commands/index.md",
-    "docs/environment-variables-order-of-precedence.png",
-    "docs/setting-project-level-and-environment-level-values.png",
-    "pages/about.md",
-    "pages/contact.md",
-    "special/404.md",
-    "special/projects.md",
-    "special/posts.md",
-    "special/home.md",
-    "projects/astro-composer.md",
-    "excalidraw/zero-copy-cloning.md",
-    "excalidraw/ci-jobs.md",
-    "excalidraw/Drawing 2026-06-17 09.17.42.excalidraw.md",
-    "docs/dbt-learn-incremental_models.md",
-    "docs/dbt-learn-exposures.sb-6bbcdbcc-Q1F784",
-    "posts/dbt-learn-exposures.md",
-    "docs/snowflake-stages.md",
+    "docs/this-is-a-test-to-return-the-delimiter-of-v1-shortcut-to-create-a-new-documentation-content.md",
+    "docs/astro-modular-api.md",
+    "docs/astro-modular--api.md",
+    "docs/site-api.md",
+    "docs/this-api.md",
     "docs/api.md",
-    "docs/attachments/ocean-view.jpg",
-    "docs/attachments/document.pdf",
-    "posts/missouri-tableau-office-hours",
+    "docs/dbt.md",
+    "docs/_dbt.md",
+    "docs/dbt-unit-testing.txt",
+    "docs/dbt-incremental-models.md",
+    "docs/dbt-debug-errors.md",
+    "docs/dbt-best-practices.md",
+    "docs/dbt-analyses.md",
+    "docs/_dbt-learn.md",
+    "docs/dbt-testing.md",
+    "docs/dbt_analyses.md",
+    "docs/dbt-seeds.md",
+    "excalidraw/dbt-ci-jobs.md",
+    "docs/dbt-analyses_and-seeds.md",
+    "docs/dbt-best_practices.md",
+    "docs/dbt-debug_errors.md",
+    "docs/_api.md",
+    "docs/dbt-analyses-and-seeds.md",
+    "docs/_dbt_learn.md",
+    "docs/dbt-unit_testing.txt",
+    "docs/dbt-snapshots.txt",
+    "docs/dbt-learn-snapshots.txt",
+    "docs/dbt-learn.txt",
+    "docs/dbt-review.md",
+    "docs/dbt-exposures.txt",
+    "docs/dbt-environment-variables-order-of-precedence.png",
+    "docs/_attachments/video.mp4",
+    "docs/_attachments/winter-landscape.jpg",
+    "docs/_attachments/forest-path.jpg",
+    "docs/_attachments/city-skyline.jpg",
+    "docs/_attachments/autumn-leaves.jpg",
+    "docs/_attachments/astro-modular-configuration.png",
+    "docs/dbt-setting-project-level-and-environment-level-values.png",
+    "posts/dbt-analytics-engineering",
+    "docs/_attachments/ocean-view.jpg",
     "excalidraw/C7C4F384-457E-477A-A0C0-6B2E8404BF90.png",
-    "excalidraw/stage-movie-appreciation-svgrepo-com-2.svg",
-    "excalidraw/git-svgrepo-com.svg",
-    "docs/sourcetree-and-git-setup/sourcetree.png",
-    "posts/common-dbt-commands-when-to-run-what/cover-image.png",
-    "posts/reflective-log-data-engineering-training/cover-image.jpeg",
-    "posts/python-tutorial-manage-multiple-versions-of-python-with-pyenv/cover-image.jpeg",
-    "posts/part-i-a-short-history-of-git"
+    "excalidraw/stage-movie-appreciation-svgrepo-com-2.svg"
   ]
 }

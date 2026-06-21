@@ -219,7 +219,7 @@ On a middle / qa branch, it can be helpful to test a batch of changes that have 
 
 ## Command failures
 
-it's good to be aware of how downstream models are impacted by different [job commands](dbt-best-practices.md#**job%20commands**):
+it's good to be aware of how downstream models are impacted by different [job commands](../../docs/dbt-learn-best-practices.md#**job%20commands**):
 
 - `dbt run` - skips downstream models are `on_error: continue` is configured in the model schema yaml. 
 - `dbt test` - stops the run or skips downstream models depending on which [severity](https://docs.getdbt.com/reference/resource-configs/severity?version=2.0&name=Fusion) is configured.

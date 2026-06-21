@@ -92,20 +92,9 @@ export default defineConfig({
   '/contact-me': '/contact',
   '/contact-us': '/contact',
   '/privacy': '/privacy-policy',
-  '/posts/manage-multiple-python-versions-with-pyenv-commands': '/posts/getting-started-with-pyenv',
-  '/posts/a-database-story': '/posts/intro-to-sql-databases',
-  '/posts/on-sql-databases': '/posts/intro-to-sql-databases',
-  '/projects/obsidian-astro-composer': '/projects/astro-composer',
-  '/projects/obsidian-astro-suite': '/projects/vault-cms',
-  '/docs/api-reference': '/docs/api',
-  '/docs/astro-modular-configuration': '/docs/configuration',
-  '/docs/mermaid-test': '/docs/obsidian-embeds-demo',
-  '/docs/mermaid-diagram-test': '/docs/obsidian-embeds-demo',
-  '/docs/mermaid-diagrams': '/docs/obsidian-embeds-demo',
-  '/docs/sourcetree-and-git': '/docs/sourcetree-and-git-setup',
-  '/docs/astro-suite-vault-modular-guide': '/docs/vault-cms-guide',
-  '/docs/astro-suite-obsidian-vault-guide-astro-modular': '/docs/vault-cms-guide',
-  '/docs/obsidian-vault-guide': '/docs/vault-cms-guide'
+  '/posts/part-ii-a-short-history-of-git': '/posts/a-short-history-of-git',
+  '/projects/finance-risk-management': '/projects/finance-risk-strategy',
+  '/docs/api-reference': '/docs/astro-modular-api'
 } : {},
 image: {
       service: {

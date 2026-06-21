@@ -8,7 +8,7 @@
   "vaultSwitcher": "reveal",
   "helpButton": "show",
   "settingsButton": "show",
-  "tabBar": true,
+  "tabBar": false,
   "tabBarHideWhenSingle": false,
   "enableWindowDragging": false,
   "newNoteButton": false,

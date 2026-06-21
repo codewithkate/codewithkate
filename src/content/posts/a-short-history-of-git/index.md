@@ -1,5 +1,5 @@
 ---
-title: "Part I: A Short History of Git"
+title: A Short History of Git
 posted_on: 2026-06-09
 description: Introduction to a three-part series
 tags:
@@ -12,9 +12,7 @@ hideCoverImage: false
 hideTOC: false
 targetKeyword: git history
 draft: false
-aliases:
-  - a-short-history-of-git
-  - part-ii-a-short-history-of-git
+aliases: part-ii-a-short-history-of-git
 ---
 ## What Problem Does Git Solve?
 

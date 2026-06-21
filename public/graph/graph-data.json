@@ -1,32 +1,46 @@
 {
   "nodes": [
     {
-      "id": "getting-started-with-pyenv",
+      "id": "a-short-history-of-git",
       "type": "post",
-      "title": "getting-started-with-pyenv",
-      "slug": "getting-started-with-pyenv",
+      "title": "A Short History of Git",
+      "slug": "a-short-history-of-git",
       "connections": 0
     },
     {
-      "id": "intro-to-sql-databases",
+      "id": "a-short-history-of-sql",
       "type": "post",
-      "title": "intro-to-sql-databases",
-      "slug": "intro-to-sql-databases",
+      "title": "A Short History of SQL",
+      "slug": "a-short-history-of-sql",
       "connections": 0
     },
     {
-      "id": "test-out-kebab",
+      "id": "dbt-commands",
       "type": "post",
-      "title": "Test out & kebab",
-      "slug": "test-out-kebab",
+      "title": "Common dbt Commands: When to Run What",
+      "slug": "dbt-commands",
+      "connections": 0
+    },
+    {
+      "id": "git-checkout",
+      "type": "post",
+      "title": "The Many Meanings of Git Checkout",
+      "slug": "git-checkout",
+      "connections": 0
+    },
+    {
+      "id": "python-pyenv",
+      "type": "post",
+      "title": "Python Tutorial: Manage Multiple Versions of Python with pyenv",
+      "slug": "python-pyenv",
       "connections": 0
     }
   ],
   "connections": [],
   "metadata": {
-    "totalPosts": 3,
+    "totalPosts": 5,
     "totalConnections": 0,
     "maxNodesApplied": false,
-    "originalNodeCount": 3
+    "originalNodeCount": 5
   }
 }
