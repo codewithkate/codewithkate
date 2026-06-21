@@ -192,7 +192,7 @@ export const remarkObsidianEmbeds: Plugin<[], Root> = () => {
           const html = `
             <div class="tableau-embed overflow-hidden rounded-xl my-8">
               <tableau-viz
-                src="<vizUrl>"
+                src="<tableauVizUrl>"
                 toolbar="bottom"
                 hide-tabs
                 width="100%"
@@ -221,6 +221,7 @@ export const remarkObsidianEmbeds: Plugin<[], Root> = () => {
           return;
         }
       }
+      
 
       // Handle Obsidian Bases files (.base)
       if (extension === '.base' || url.endsWith('.base') || url.includes('.base|')) {
@@ -542,6 +543,23 @@ export const remarkObsidianEmbeds: Plugin<[], Root> = () => {
       const url = node.url;
       const title = node.title || '';
 
+      
+      // Handle Tableau embeds
+      const tableauVizUrl = extractTableauVizUrl(url);
+      if (tableauVizUrl) {
+        const html = `
+          <div class="tableau-embed overflow-hidden rounded-xl my-8">
+            <tableau-viz
+              src="<tableauVizUrl>"
+              toolbar="bottom"
+              hide-tabs
+              width="100%"
+              height="800"
+            ></tableau-viz>
+          </div>`;
+        parent.children[index] = createHtmlNode(html);
+        return;
+      }
 
       // Handle YouTube embeds
       const youtubeVideoId = extractYouTubeVideoId(url);
