@@ -81,6 +81,10 @@ function parseViewsFromBase(content: string) {
   return views;
 }
 
+//=======================================================
+// 1. Define constants for file extensions and URL patterns
+//=======================================================
+
 // Audio file extensions (matches astro-loader-obsidian)
 const AUDIO_EXTENSIONS = ['.mp3', '.wav', '.ogg', '.m4a', '.3gp', '.flac', '.aac'];
 
@@ -100,14 +104,15 @@ const YOUTUBE_PATTERNS = [
   /^https?:\/\/(?:www\.)?youtube\.com\/embed\/([^&\n?#]+)/
 ];
 
-
-// Twitter/X URL patterns
-const TWITTER_PATTERNS = [
-  /^https?:\/\/(?:www\.)?twitter\.com\/\w+\/status\/(\d+)/,
-  /^https?:\/\/(?:www\.)?x\.com\/\w+\/status\/(\d+)/
+// Tableau URL patterns
+const TABLEAU_PATTERNS = [
+  /^https:\/\/public.tableau.com\/views\/[A-Za-z-]+\/[A-Za-z-?:=&_]+/,
+  /^https:\/\/public.tableau.com\/views\/[A-Za-z-]+\/[A-Za-z-_]+/
 ];
 
-// Helper function to get file extension
+//======================================================
+// 2. Helper functions
+//======================================================
 function getFileExtension(url: string): string {
   const pathname = new URL(url, 'http://example.com').pathname;
   const lastDot = pathname.lastIndexOf('.');
@@ -135,10 +140,9 @@ function extractYouTubeVideoId(url: string): string | null {
   return null;
 }
 
-
-// Helper function to extract Twitter/X post ID
-function extractTwitterPostId(url: string): string | null {
-  for (const pattern of TWITTER_PATTERNS) {
+// Helper function to extract Tableau Viz URL
+function extractTableauVizUrl(url: string): string | null {
+  for (const pattern of TABLEAU_PATTERNS) {
     const match = url.match(pattern);
     if (match) {
       return match[1];
@@ -154,6 +158,10 @@ function createHtmlNode(html: string): any {
     value: html
   };
 }
+
+//=======================================================
+// Main Remark Plugin: remarkObsidianEmbeds
+//=======================================================
 
 export const remarkObsidianEmbeds: Plugin<[], Root> = () => {
   return async (tree, file: any) => {
@@ -175,13 +183,22 @@ export const remarkObsidianEmbeds: Plugin<[], Root> = () => {
       const alt = node.alt || '';
       const extension = getFileExtension(url);
 
-      // Handle web embeds (YouTube, Twitter/X) FIRST - before attachment processing
+      // Handle web embeds (YouTube, Tableau) FIRST - before attachment processing
       if (isExternalUrl(url)) {
-        // Check for Twitter/X
-        const twitterPostId = extractTwitterPostId(url);
-        if (twitterPostId) {
-          const title = alt || 'Twitter post';
-          const html = `<blockquote class="twitter-tweet" data-twitter-embed data-theme="preferred_color_scheme" data-conversation="none" title="${title}"><a href="https://twitter.com/user/status/${twitterPostId}"></a></blockquote>`;
+        // Check for Tableau
+        const tableauVizUrl = extractTableauVizUrl(url);
+        if (tableauVizUrl) {
+          const title = alt || 'Tableau view';
+          const html = `
+            <div class="tableau-embed overflow-hidden rounded-xl my-8">
+              <tableau-viz
+                src="<vizUrl>"
+                toolbar="bottom"
+                hide-tabs
+                width="100%"
+                height="800"
+              ></tableau-viz>
+            </div>`;
           parent.children[index] = createHtmlNode(html);
           return;
         }
@@ -190,16 +207,16 @@ export const remarkObsidianEmbeds: Plugin<[], Root> = () => {
         const youtubeVideoId = extractYouTubeVideoId(url);
         if (youtubeVideoId) {
           const html = `
-<div class="youtube-embed aspect-video overflow-hidden rounded-xl my-8">
-  <iframe
-    src="https://www.youtube.com/embed/${youtubeVideoId}?rel=0&modestbranding=1"
-    title="${alt || 'YouTube video player'}"
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    allowfullscreen
-    loading="lazy"
-    class="w-full h-full"
-  ></iframe>
-</div>`;
+            <div class="youtube-embed aspect-video overflow-hidden rounded-xl my-8">
+              <iframe
+                src="https://www.youtube.com/embed/${youtubeVideoId}?rel=0&modestbranding=1"
+                title="${alt || 'YouTube video player'}"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen
+                loading="lazy"
+                class="w-full h-full"
+              ></iframe>
+            </div>`;
           parent.children[index] = createHtmlNode(html);
           return;
         }
@@ -508,13 +525,13 @@ export const remarkObsidianEmbeds: Plugin<[], Root> = () => {
       }
 
       const html = `
-<div class="base-embed base-embed--table" data-base-config='${JSON.stringify(cfg).replace(/'/g, '&apos;')}'>
-  <div class="prose w-full overflow-x-auto">
-    <div class="rounded-lg border border-primary-200 dark:border-primary-600 p-4 bg-primary-50 dark:bg-primary-800 text-primary-600 dark:text-primary-300">
-      <strong>Loading base…</strong>
-    </div>
-  </div>
-</div>`;
+        <div class="base-embed base-embed--table" data-base-config='${JSON.stringify(cfg).replace(/'/g, '&apos;')}'>
+          <div class="prose w-full overflow-x-auto">
+            <div class="rounded-lg border border-primary-200 dark:border-primary-600 p-4 bg-primary-50 dark:bg-primary-800 text-primary-600 dark:text-primary-300">
+              <strong>Loading base…</strong>
+            </div>
+          </div>
+        </div>`;
       parent.children[index] = createHtmlNode(html);
     });
 
@@ -530,16 +547,16 @@ export const remarkObsidianEmbeds: Plugin<[], Root> = () => {
       const youtubeVideoId = extractYouTubeVideoId(url);
       if (youtubeVideoId) {
         const html = `
-<div class="youtube-embed aspect-video overflow-hidden rounded-xl my-8">
-  <iframe
-    src="https://www.youtube.com/embed/${youtubeVideoId}?rel=0&modestbranding=1"
-    title="${title || 'YouTube video player'}"
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    allowfullscreen
-    loading="lazy"
-    class="w-full h-full"
-  ></iframe>
-</div>`;
+          <div class="youtube-embed aspect-video overflow-hidden rounded-xl my-8">
+            <iframe
+              src="https://www.youtube.com/embed/${youtubeVideoId}?rel=0&modestbranding=1"
+              title="${title || 'YouTube video player'}"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen
+              loading="lazy"
+              class="w-full h-full"
+            ></iframe>
+          </div>`;
         parent.children[index] = createHtmlNode(html);
         return;
       }
