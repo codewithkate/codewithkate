@@ -15,7 +15,7 @@
               "type": "bases",
               "state": {
                 "file": "bases/Home.base",
-                "viewName": "Projects"
+                "viewName": "Posts"
               },
               "pinned": true,
               "icon": "lucide-home",
