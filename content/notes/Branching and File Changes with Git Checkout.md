@@ -16,7 +16,9 @@ aliases:
   - git-checkout
 ---
 
-**Learning** git can fell overwhelming when there are so many commands and options. This is especially true for the `checkout` command which has more than one meaning AND there are alternative commands to do the same thing.
+# Check It Out: The Many Meanings of Git Checkout
+
+**Learning** git can feel overwhelming when there are so many commands and options. This is especially true for the `checkout` command which performs a different function depending on when you are "checking out" a branch or a file.
 
 I try to simplify `git checkout` into five scenarios:
 
@@ -25,6 +27,8 @@ I try to simplify `git checkout` into five scenarios:
 3. Switch to a new branch.
 4. Restore or add a file from another branch.
 5. Delete a file by overwriting with another branch or file.
+
+> ![Callout] Read 'til the end for bonus `checkout` used in GitHub.
 
 ## Scenario 1: Branch status
 
