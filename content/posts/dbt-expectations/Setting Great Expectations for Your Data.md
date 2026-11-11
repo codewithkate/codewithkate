@@ -1,23 +1,12 @@
 ---
-title: "dbt Tests: Setting Great Expectations for Your Data"
-posted_on: 2026-06-09
-description: Customize data quality checks from your data.
-tags: budding
-image: "[[cover-image.png]]"
-imageAlt: 
-imageOG: false
-hideCoverImage: false
-hideTOC: false
-targetKeyword: "dbt tests"
-status: seed, bud, evergreen
 image: "[[image.png]]"
 imageAlt: Default Image
-title: "Claim or Concept"
-description: Introduction to a three-part series
-tags: dbt
-draft: true
+title: "dbt Tests: Setting Great Expectations for Your Data"
+description: Customize data quality checks from your data.
+tags: budding, dbt
 ---
----
+
+# dbt Tests: Setting Great Expectations for Your Data
 
 Trust is one of the most important qualities to have in a data ecosystem. People who use data expect it to be accurate and up to date with enough uniqueness and volume to have a significant impact on decision making. Data Platforms, like Snowflake, offer [system data metric functions](https://docs.snowflake.com/en/user-guide/data-quality-system-dmfs) to perform the data quality checks that support a trusted data environment. These functions check for:
 
