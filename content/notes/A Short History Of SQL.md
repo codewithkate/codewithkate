@@ -1,6 +1,9 @@
 ---
-title: "A Short History of SQL: The Language Of Your Data Stack"
+status: evergreen
 posted_on: 2026-06-09
+image: "[[watson-research-center.jpg]]"
+imageAlt: IBM's Watson Research Center in Yorktown Heights, N.Y.
+title: "A Short History of SQL: The Language Of Your Data Stack"
 description: History of SQL as a framework for learning about your data stack
 tags:
   - DES6
@@ -8,15 +11,8 @@ tags:
   - snowflake
   - dbt
   - aws
-image: "[[cover-image.jpg]]"
-imageAlt: Watson Research Center in Yorktown Heights, N.Y.
-imageOG: false
-hideCoverImage: false
-hideTOC: false
-targetKeyword: sql history
+  - sankofa
 draft: false
-aliases:
-  - a-short-history-of-sql
 ---
 
 **tldr;** Sankofa is a Twi word meaning "go back and get it." This philosophy encourages us to learn about our collective past when shaping the future. This is also why I start with the names and faces behind the unspoken languages we use to interact with machines. Read on for a short reflection on the history of SQL and it’s abstractions to help you build your tech stack.
@@ -55,7 +51,7 @@ Codd later put forth 13 rules, known as [Codd's 12 Rules](https://en.wikipedia.o
 
 This list nearly matches this familiar diagram found in so many beginner SQL tutorials.
 
-[](https://app.notion.com)
+![[basic-sql-commands]]
 
 ## Where we are today
 
