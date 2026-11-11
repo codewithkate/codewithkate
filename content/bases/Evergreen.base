@@ -1,0 +1,22 @@
+```base
+filters:
+  and:
+    - file.hasTag("evergreen")
+views:
+  - type: table
+    name: "Seedlings"
+    limit: 10
+    groupBy:
+      property: note.age
+      direction: DESC
+    filters:
+      and:
+        - 'status != "done"'
+        - or:
+            - "formula.ppu > 5"
+            - "price > 2.1"
+    order:
+      - file.name
+      - file.ext
+      - note.age
+```
