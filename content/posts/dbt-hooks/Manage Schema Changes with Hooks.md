@@ -1,17 +1,9 @@
 ---
+tags: budding, dbt
 title: "dbt Hooks: Manage Schema Changes"
-posted_on: 2026-06-09
 description: Macros to manage column and data type changes
-tags:
-  - dbt
-image: "
-imageAlt: How to structure a dbt command with the commit name, command, flags, and arguments.
-imageOG: false
-hideCoverImage: false
-hideTOC: false
-targetKeyword: ""
-draft: true
-aliases:
+image: "[[image.png]]"
+imageAlt: Default Image
 ---
 
 ## About Hooks
