@@ -1,6 +1,6 @@
 ---
 title: API
-description: Complete API reference for the Astro Modular theme
+description: Complete API reference for the CWK theme
 category: Astro Modular
 order: 2
 version: 0.8.1

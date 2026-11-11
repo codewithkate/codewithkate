@@ -1,20 +1,28 @@
 ---
-title: "Common dbt Commands: When to Run What"
+status: evergreen
 posted_on: 2026-06-09
+image: "[[image.png]]"
+imageAlt: Default Image
+title: "Command-Line Tools for dbt Methods"
 description: When and how to use dbt commands in your data workflow
 tags:
   - DES6
-  - dbt
+  - git
+draft: false
+---
+status: evergreen
+posted_on: 2026-06-09
 image: "[[cover-image.png]]"
 imageAlt: How to structure a dbt command with the commit name, command, flags, and arguments.
-imageOG: false
-hideCoverImage: false
-hideTOC: false
-targetKeyword: ""
-draft: false
-aliases:
+title: "Common dbt Commands: When to Run What"
+description: Introduction to a three-part series
+tags:
+  - DES6
+  - git
+draft: true
 ---
-# **Where to Use Commands**
+---
+# Taking Command of Your dbt Project: Understanding when to use common dbt commands
 
 You can run dbt commands from the Studio IDE or install [dbt CLI](https://docs.getdbt.com/docs/platform/dbt-cli-installation?version=2.0&name=Fusion) to use them locally. Although dbt maintains a comprehensive doc site and forum, I wanted to bring together the most common commands into a semi-chronological order.
 
