@@ -1,17 +1,11 @@
 ---
 title: "Reflective Log: Data Engineering Training"
-posted_on: 2026-06-09
 description: Chronicle of My Data Engineering School Experience
+image: "[[magnolia-tree.jpeg]]"
+imageAlt: View from under a Magnolia tree in Spring
 tags:
   - DES6
-  - dbt
-image: "[[cover-image.jpeg]]"
-imageAlt: View from under a Magnolia tree in Spring
-imageOG: false
-hideCoverImage: false
-hideTOC: false
-targetKeyword: data engineering school
-draft: true
+draft: false
 ---
 
 # Reflective Log: Data Engineering Training

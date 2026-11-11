@@ -1,6 +1,5 @@
 ---
 status: evergreen
-posted_on: 2026-06-09
 image: "[[watson-research-center.jpg]]"
 imageAlt: IBM's Watson Research Center in Yorktown Heights, N.Y.
 title: "A Short History of SQL: The Language Of Your Data Stack"

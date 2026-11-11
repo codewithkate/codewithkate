@@ -1,6 +1,5 @@
 ---
-status: seed, bud, evergreen
-posted_on: 2026-06-09
+status: evergreen
 image: "[[git-logo.png]]"
 imageAlt: Git logo
 title: "Part I: Git Is More Than Version Control"

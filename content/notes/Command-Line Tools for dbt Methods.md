@@ -1,24 +1,12 @@
 ---
 status: evergreen
-posted_on: 2026-06-09
-image: "[[image.png]]"
-imageAlt: Default Image
+image: "[[cover-image.png]]"
+imageAlt: How to structure a dbt command with the commit name, command, flags, and arguments.
 title: "Command-Line Tools for dbt Methods"
 description: When and how to use dbt commands in your data workflow
 tags:
   - DES6
-  - git
-draft: false
----
-status: evergreen
-posted_on: 2026-06-09
-image: "[[cover-image.png]]"
-imageAlt: How to structure a dbt command with the commit name, command, flags, and arguments.
-title: "Common dbt Commands: When to Run What"
-description: Introduction to a three-part series
-tags:
-  - DES6
-  - git
+  - dbt
 draft: true
 ---
 ---
@@ -31,15 +19,15 @@ You can run dbt commands from the Studio IDE or install [dbt CLI](https://docs.g
 
 Most commands are run after changes to configuration files and resource objects:
 
-- [x] analyses
-- [ ] macros
-- [x] models
-- [x] seeds
-- [ ] snapshots
-- [ ] tests
-- [ ] exposures
+- analyses
+- macros
+- models
+- seeds
+- snapshots
+- tests
+- exposures
 
-These are developed and scheduled for automatic deployment.
+These can be developed and scheduled for automatic deployment.
 
 ---
 ### **Create a Project**
@@ -264,41 +252,37 @@ You could `dbt clone` another environment's resources to bring them into your lo
 
 ### **Node Selector Methods**
 
-| method | commands | values |
-| --- | --- | --- |
-| access | ls | --- |
-| config | run, ls | --- |
-| exposure | test, run, ls | --- |
-| file | run, build | --- |
-| fqn | run | --- |
-| group | run | --- |
-| metric | build, ls | --- |
-| package | run | --- |
-| path | run, build | --- |
-| resource_type | build, ls | --- |
-| result | seed, run, test, build | --- |
-| saved_query | ls | --- |
-| selector | run, build | --- |
-| semantic_model | ls | --- |
-| source | run | --- |
-| source_status | build, source freshness | --- |
-| state | run, test, ls | --- |
-| tag | run | --- |
-| test_name | test | --- |
-| test_type | test | --- |
-| unit_test | ls | --- |
-| version | ls | --- |
+| method | commands |
+| --- | --- |
+| access | ls |
+| config | run, ls |
+| exposure | test, run, ls |
+| file | run, build |
+| fqn | run |
+| group | run |
+| metric | build, ls |
+| package | run |
+| path | run, build |
+| resource_type | build, ls |
+| result | seed, run, test, build |
+| saved_query | ls |
+| selector | run, build |
+| semantic_model | ls |
+| source | run |
+| source_status | build, source freshness |
+| state | run, test, ls |
+| tag | run |
+| test_name | test |
+| test_type | test |
+| unit_test | ls |
+| version | ls |
+|  |  |
 
 
 
-### Graph operators
+### Read the docs
 
-> You exist in the context...
----
-Read the docs
-[Commands](https://docs.getdbt.com/reference/dbt-commands?version=2.0)
-[Node Selection](https://docs.getdbt.com/reference/node-selection/methods?version=2.0&name=Fusion)
+- [Commands](https://docs.getdbt.com/reference/dbt-commands?version=2.0)
+- [Node Selection](https://docs.getdbt.com/reference/node-selection/methods?version=2.0&name=Fusion)
 
 Happy coding!
-
-"This [website, program, service, application, product] uses TMDB and the TMDB APIs but is not endorsed, certified, or otherwise approved by TMDB."

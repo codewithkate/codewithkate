@@ -1,6 +1,5 @@
 ---
 title: "Check It Out: The Many Meanings of Git Checkout"
-posted_on: 2026-06-09
 description: Examples of how to use the git checkout command
 tags:
   - DES6

@@ -1,6 +1,5 @@
 ---
 status: seed, bud, evergreen
-posted_on: 2026-06-09
 image: "[[image.png]]"
 imageAlt: Default Image
 title: "Claim or Concept"
