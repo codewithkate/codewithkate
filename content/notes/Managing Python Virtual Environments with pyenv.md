@@ -4,9 +4,7 @@ title: "Python Tutorial: Manage Multiple Versions of Python with pyenv"
 description: Step-by-step reference guide for using pyenv in different environments
 image: "[[no-trampling-cat.jpeg]]"
 imageAlt: Cat on top of a box labeled “No Trampling” with another cat inside
-tags: 
-  - python
-  - pyenv
+tags: python, pyenv
 ---
 Python Managers are command line tools that allow you to keep multiple Python versions on your machine and choose which version to use based on your environment.
 ---

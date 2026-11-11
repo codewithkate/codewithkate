@@ -1,13 +1,10 @@
 ---
-status: seed, bud, evergreen
-image: "[[image.png]]"
-imageAlt: Default Image
+status: seedling, budding, evergreen
 title: "Claim or Concept"
 description: Introduction to a three-part series
-tags:
-  - DES6
-  - git
-draft: true
+image: "[[image.png]]"
+imageAlt: Default Image
+tags: 
 ---
 
 # Title
